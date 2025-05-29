@@ -9246,27 +9246,20 @@ class PaymentDetailsPage {
     console.log("Browser opened for CC Avenue Payment");
     browser.on('loadstart').subscribe(event => {
       const url = event.url;
-      console.log('Page started loading: ', url);
-      // ✅ Detect success or failure redirect
+      // console.log('Page started loading: ', url);
       if (url.includes('payment_success') || url.includes('ticket-confirm')) {
         browser.close();
-        alert('Payment Success!');
         this.viewTicket = true;
         this.paymentFailed = false;
-        // Handle app-side logic
       } else if (url.includes('payment_failure') || url.includes('ticket-cancel') || url.includes('sessionTimeOut')) {
         browser.close();
-        alert('Payment Failed');
         this.paymentFailed = true;
         this.viewTicket = false;
-        // Handle failure logic
       }
     });
-    // ✅ Optional: Detect when page finishes loading
     browser.on('loadstop').subscribe(event => {
       console.log('Page loaded: ', event.url);
     });
-    // ✅ Optional: Detect when browser is closed
     browser.on('exit').subscribe(() => {
       console.log('Browser closed');
     });
