@@ -12529,6 +12529,7 @@ class PaymentDetailsPage {
                     console.log("loadstart -->", event);
                     console.log(event.url, "eventCalling");
                     //check the requested url if success the show success and ticket details
+                    alert(event.url);
                     if (event.url.indexOf("payment_gateway_redirect_page") > -1 && prevUrl.indexOf("payment_gateway_redirect_page") > -1) {
                       track = 0;
                       console.log('1');
@@ -12545,6 +12546,7 @@ class PaymentDetailsPage {
                     //     // let virtualPnr = event.url.indexOf("pnr_number")
                     //     // console.log(virtualPnr,"virtualPnr")
                     // }
+                    alert(event.url);
                     if ((event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
                       let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').pnr_number;
                       browser.close();
@@ -12571,6 +12573,7 @@ class PaymentDetailsPage {
                     }
                     // else if ((event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1 ) {
                     else if (event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1 || event.url.indexOf("customerCancellation") > -1 || event.url.indexOf("www.ticketsimply.com") > -1) {
+                      alert(event.url);
                       self.commonStorage.localRemove('bookedTicketDetails');
                       browser.close();
                       // self.navCtrl.setRoot(TicketDetailsPage, {
@@ -12592,6 +12595,7 @@ class PaymentDetailsPage {
                       // this.navigationExtras = navigationExtras;
                     } else if (event.url.indexOf("local-cancel") > -1) {
                       // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
+                      alert(event.url);
                       setTimeout(() => {
                         browser.close();
                       }, 500);
@@ -13596,7 +13600,7 @@ class PaymentDetailsPage {
               }
               //check the requested url if success the show success and ticket details
               //    if (event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1 || event.url.indexOf("confirm") > -1)
-              if (event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) {
+              if (event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1 || event.url.indexOf("order_num") > -1) {
                 // console.log('gate')
                 let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').round_trip_number;
                 browser.close();
