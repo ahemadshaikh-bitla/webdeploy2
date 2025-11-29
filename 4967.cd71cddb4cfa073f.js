@@ -12441,356 +12441,359 @@ class PaymentDetailsPage {
           }
         } else if (_this7.paymentType != "26" && _this7.paymentType != "37" && result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url && _this7.paymentType != '21') {
           if (result.pay_flow) {
+            //     if(this.appData.isWEBAPP ){
+            //         alert('check')
+            //         if ((result.pay_gay_url && !result.code) || (result.html_body_contents && !result.pay_gay_url)) {
+            //     alert('check')
+            //     let form = <HTMLFormElement>document.getElementById('payMentGateWayForm');
+            //     console.log("payment details --> bookTicket() --> this.paymentType", this.paymentType);
+            //     this.commonStorage.localSet('bookedTicketDetails', result);
+            //     let formHtml: string = '';
+            //     for (let key in result) {
+            //         if (result.hasOwnProperty(key)) {
+            //             let value = result[key];
+            //             console.log("bookTicket --> ", key, value)
+            //             if (key == "passenger_contact_details" || key == "passengers_details") {
+            //                 value = encodeURIComponent(value);
+            //             }
+            //             let value2 = '';
+            //             if (value) {
+            //                 value2 = value.toString().replace(/\n/g, '');
+            //             }
+            //             formHtml += '<input type="hidden" value="' + value2 + '" id="' + key + '" name="' + key + '"/>';
+            //         }
+            //     }
+            //     if (!(this.paymentType == "31")) {
+            //         form.innerHTML = formHtml;
+            //     }
+            //     let payScript = "var form = document.getElementById('ts-app-payment-form-redirect'); ";
+            //     // for version 5 or less payment gateway issue this ` token not working
+            //     //let versionNumber = this.platform && this.platform.version && this.platform.version() ? this.platform.version() : false;
+            //     let dirtyEl = '<input type="hidden" id="page_is_dirty" value="no">';
+            //     /*if (this.platform.is('android') && versionNumber && versionNumber.major <= 5) {
+            //         payScript += "form.innerHTML = '" + formHtml + dirtyEl + "';";
+            //         payScript += "form.action = '" + result.pay_gay_url + "';";
+            //         payScript += "form.method = 'POST';";
+            //         payScript += 'var e = document.getElementById("page_is_dirty");';
+            //         payScript += 'if (e.value == "no") {e.value = "yes";form.submit();}';
+            //         payScript += 'else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }';
+            //     }
+            //     else {*/
+            //     payScript += "form.innerHTML = `" + formHtml + dirtyEl + "`;";
+            //     payScript += "form.action = `" + result.pay_gay_url + "`;";
+            //     payScript += "form.method = 'POST';";
+            //     payScript += `var e = document.getElementById("page_is_dirty");`;
+            //     payScript += `if (e.value == "no") {e.value = "yes";form.submit();}`;
+            //     payScript += `else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }`;
+            //     //}
+            //     let payScript2 = "";
+            //     payScript2 += "var form = document.getElementById('ts-app-payment-form-redirect');";
+            //     /*if (this.platform.is('android') && versionNumber && versionNumber.major <= 5) {
+            //         payScript2 += "form.innerHTML = '" + formHtml + dirtyEl + "';";
+            //         payScript += "form.action = '" + result.pay_gay_url + "';";
+            //         payScript += "form.method = 'POST';";
+            //         payScript2 += 'var e = document.getElementById("page_is_dirty");';
+            //         payScript2 += 'if (e.value == "yes") {e.value = "yes";form.submit();}';
+            //         payScript2 += 'else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }';
+            //     }
+            //     else {*/
+            //     payScript2 += "form.innerHTML = `" + formHtml + dirtyEl + "`;";
+            //     payScript += "form.action = `" + result.pay_gay_url + "`;";
+            //     payScript += "form.method = 'POST';";
+            //     payScript2 += `var e = document.getElementById("page_is_dirty");`;
+            //     payScript2 += `if (e.value == "yes") {e.value = "yes";form.submit();}`;
+            //     payScript2 += `else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }`;
+            //     //}
+            //     //console.log("payScript --->", payScript);
+            //     // InAppBrowser will work in the app
+            //     if (result.html_body_contents && !result.pay_gay_url) {
+            //         let parser = new DOMParser();
+            //         let doc = parser.parseFromString(result.html_body_contents, "text/xml");
+            //         let htmlStr = ""
+            //         htmlStr += '<script src="https://www.paynimo.com/paynimocheckout/client/lib/jquery.min.js" type="text/javascript"></script>';
+            //         payScript = "document.write(`" + htmlStr + result.html_body_contents + "<body></body>`);";
+            //         payScript2 = payScript;
+            //     }
+            //     if ((this.platform.is('cordova') || (this.platform.is('android') || this.platform.is('ios'))) && !this.appData.isWEBAPP) {
+            //         console.log('cordova -->');
+            //         //  this.gotoPaymentModal(result.pay_gay_url);
+            //         //let browser = cordova.ThemeableBrowser.open("http://siri-r5.ticketsimply.net/" + "bookings/payment_gateway_redirect_page", '_blank', this.options);
+            //         // "http://103.117.212.198/~souvikst/redirect2.html"
+            //         // const browser = this.iab.create("http://abct.abctransport.com/" + "bookings/payment_gateway_redirect_page", '_blank', this.options);
+            //         // this.appData.BASE_URL
+            //         const browser = this.iab.create(this.appData.BASE_URL + "bookings/payment_gateway_redirect_page", '_blank', this.options);
+            //         let self = this;
+            //         let track = 0;
+            //         let prevUrl = '';
+            //         browser.on('loadstart').subscribe(event => {
+            //             console.log("loadstart -->", event);
+            //             console.log(event.url, "eventCalling")
+            //             //check the requested url if success the show success and ticket details
+            //             if (event.url.indexOf("payment_gateway_redirect_page") > -1 && prevUrl.indexOf("payment_gateway_redirect_page") > -1) {
+            //                 track = 0;
+            //                 console.log('1');
+            //                 console.log(event, "eventCalling")
+            //             }
+            //             //  if (event.url.indexOf("virtual_pay_vurl") > -1) {
+            //             //     let splitedData = event.url.split("?")[1];
+            //             //     console.log(splitedData,"splitedData")
+            //             //     // this.http.get('virtual_pay_vurl').subscribe((response) => {
+            //             //     //     console.log(response);
+            //             //     //     let virtualPnr = response;
+            //             //     //     console.log(virtualPnr,"virtualPnr")
+            //             //     //  });
+            //             //     // let virtualPnr = event.url.indexOf("pnr_number")
+            //             //     // console.log(virtualPnr,"virtualPnr")
+            //             // }
+            //             if ((event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
+            //                 let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').pnr_number;
+            //                 browser.close();
+            //                 // self.navCtrl.setRoot(TicketDetailsPage, {
+            //                 //   newBooking: true,
+            //                 //   success: true,
+            //                 //   pnrNumber: pnrNumber
+            //                 // });
+            //                 this.viewTicket = true;
+            //                 if(this.metaData.msiteFolder == 'ourbustheme'){
+            //                     this.navCtrl.navigateRoot('booking-details', this.navigationExtras)
+            //                 }
+            //                 this.commonService.gTrack('bookonlinesuccess', "ticket booking with online payment success");
+            //                 localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
+            //                 this.commonStorage.localSet('bookedTicketDetails', result);
+            //                 let navigationExtras: NavigationExtras = {
+            //                     queryParams: {
+            //                         new_booking: true,
+            //                     }
+            //                 };
+            //                 // this.navCtrl.navigateRoot('booking-details', navigationExtras)
+            //                 this.navigationExtras = navigationExtras;
+            //                 // console.log(event.url,"eventCalling")
+            //             }
+            //             // else if ((event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1 ) {
+            //             else if (event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1 || event.url.indexOf("customerCancellation") > -1 || event.url.indexOf("www.ticketsimply.com") > -1) {
+            //                 self.commonStorage.localRemove('bookedTicketDetails');
+            //                 browser.close();
+            //                 // self.navCtrl.setRoot(TicketDetailsPage, {
+            //                 //   success: false
+            //                 // });
+            //                 // || customerCancellation
+            //                 this.viewTicket = false;
+            //                 this.paymentFailed = true;
+            //                 // this.util.showAlert("Booking Failed", result.message);
+            //                 this.commonService.gTrack('bookonlinefailure', "ticket not booked with online payment");
+            //                 // localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
+            //                 // this.commonStorage.localSet('bookedTicketDetails', result);
+            //                 // let navigationExtras: NavigationExtras = {
+            //                 //     queryParams: {
+            //                 //         new_booking: true,
+            //                 //     }
+            //                 // };
+            //                 // // this.navCtrl.navigateRoot('booking-details', navigationExtras)
+            //                 // this.navigationExtras = navigationExtras;
+            //             } else if (event.url.indexOf("local-cancel") > -1) {
+            //                 // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
+            //                 setTimeout(() => {
+            //                     browser.close();
+            //                 }, 500);
+            //             }
+            //         });
+            //         // browser.addEventListener('loadstart', function (event) {
+            //         //   console.log("loadstart -->", event);
+            //         //   //check the requested url if success the show success and ticket details
+            //         //   if (event.url.indexOf("payment_gateway_redirect_page") > -1 && prevUrl.indexOf("payment_gateway_redirect_page") > -1) {
+            //         //     track = 0;
+            //         //     console.log('1');
+            //         //   }
+            //         //   if ((event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
+            //         //     let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').pnr_number;
+            //         //     browser.close();
+            //         //     // self.navCtrl.setRoot(TicketDetailsPage, {
+            //         //     //   newBooking: true,
+            //         //     //   success: true,
+            //         //     //   pnrNumber: pnrNumber
+            //         //     // });
+            //         //     localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
+            //         //     let navigationExtras: NavigationExtras = {
+            //         //       queryParams: {
+            //         //         new_booking: true,
+            //         //       }
+            //         //     };
+            //         //     this.navCtrl.navigateRoot('booking-details', navigationExtras)
+            //         //   } else if ((event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
+            //         //     self.commonStorage.localRemove('bookedTicketDetails');
+            //         //     browser.close();
+            //         //     // self.navCtrl.setRoot(TicketDetailsPage, {
+            //         //     //   success: false
+            //         //     // });
+            //         //     localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
+            //         //     let navigationExtras: NavigationExtras = {
+            //         //       queryParams: {
+            //         //         new_booking: true,
+            //         //       }
+            //         //     };
+            //         //     this.navCtrl.navigateRoot('booking-details', navigationExtras)
+            //         //   } else if (event.url.indexOf("local-cancel") > -1) {
+            //         //     // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
+            //         //     setTimeout(() => {
+            //         //       browser.close();
+            //         //     }, 500);
+            //         //   }
+            //         // });
+            //         //  on url load stop
+            //         browser.on('loadstop').subscribe(event => {
+            //             console.log("loadstop -->", event);
+            //             console.log(event.url, "eventCalling")
+            //             // browser.executeScript({
+            //             //   code: "var key = 'hidden'; var keyval = 'yes'; localStorage.setItem('hidden',''); var button = document.createElement('Button'); button.innerHTML = 'Hide Map'; button.style = 'top:0;right:0;position:fixed;'; document.body.appendChild(button); button.setAttribute('onclick','localStorage.setItem(key,keyval);');"
+            //             // });
+            //             // var loop = setInterval(function () {
+            //             //   browser.executeScript({
+            //             //     code: "localStorage.getItem( 'hidden' )"
+            //             //   }),
+            //             //     function (values) {
+            //             //       var hidden = values[0];
+            //             //       if (hidden === 'yes') {
+            //             //         clearInterval(loop);
+            //             //         browser.hide();
+            //             //       }
+            //             //     }
+            //             // });
+            //             // prevUrl = event.url;
+            //             //   browser.insertCSS({ code: "input{-webkit-user-select: none !important;}input[type=submit],input[type=button]{-webkit-user-select: auto !important;}" });
+            //             if (event.url.indexOf("payment_gateway_redirect_page") > -1) {
+            //                 if (track <= 0) {
+            //                     console.log("Payscript 1 -----------")
+            //                     browser.executeScript({
+            //                         code: payScript
+            //                     });
+            //                 } else {
+            //                     console.log("Payscript 2 -----------")
+            //                     browser.executeScript({
+            //                         code: payScript2
+            //                     });
+            //                 }
+            //             }
+            //             track++;
+            //             console.log("loadstart -->", event);
+            //         });
+            //         // browser.addEventListener('loadstop', function (event) {
+            //         //   prevUrl = event.url;
+            //         // //   if (self.platform.is('android'))
+            //         //     // browser.insertCSS({ code: "input{-webkit-user-select: none !important;}input[type=submit],input[type=button]{-webkit-user-select: auto !important;}" });
+            //         //   if (event.url.indexOf("redirect2.html") > -1) {
+            //         //     if (track <= 0) {
+            //         //       console.log("Payscript 1 -----------")
+            //         //       browser.executeScript({
+            //         //         code: payScript
+            //         //       });
+            //         //     } else {
+            //         //       console.log("Payscript 2 -----------")
+            //         //       browser.executeScript({
+            //         //         code: payScript2
+            //         //       });
+            //         //     }
+            //         //   }
+            //         //   track++;
+            //         //   console.log("loadstart -->", event);
+            //         // });
+            //         //on closing the browser
+            //         browser.on('exit').subscribe(event => {
+            //             browser.executeScript({
+            //                 code: payScript
+            //             });
+            //             console.log("exit -->", event);
+            //             console.log(event.url, "eventCalling")
+            //         });
+            //         // browser.addEventListener('exit', function (event) {
+            //         //   browser.executeScript({
+            //         //     code: payScript
+            //         //   });
+            //         //   console.log("exit -->", event);
+            //         // });
+            //         //   browser.on('').subscribe(event => {
+            //         //     browser.insertCSS({ code: "body{color: red;" });
+            //         //  });
+            //         //   browser.addEventListener('backPressed', function (event) {
+            //         //     navigator.notification.confirm('Are you sure you want to go Back?', function (index) {
+            //         //       if (index == 1) {
+            //         //         // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
+            //         //         setTimeout(() => {
+            //         //           browser.close();
+            //         //         }, 500);
+            //         //       }
+            //         //     }, '', ['YES', 'NO']);
+            //         //   }, false);
+            //     }
+            //     else { // web browser
+            //         console.log('web browser -->123');
+            //         form.action = result.pay_gay_url;
+            //         // form.action ="http://creatorsenclose.in/test.php";
+            //         form.method = "POST";
+            //         // console.log("form ", form.submit());
+            //         // function logSubmit(event) {
+            //         //     console.log("event Listener 12345")
+            //         //     console.log(location,JSON.stringify(window.navigator))
+            //         //     window.addEventListener('loadstart',logSubmit );
+            //         //     // event.preventDefault();
+            //         // }
+            //         // // form.onloadstart = logSubmit
+            //         // // window.addEventListener('loadstart',logSubmit );
+            //         // // form.addEventListener('loadstart',logSubmit,false );
+            //         // form.addEventListener('submit',logSubmit );
+            //         // // form.addEventListener('loadstart',logSubmit );
+            //         // //    console.log("test1233")
+            //         //    form.dispatchEvent(new Event('submit'));
+            //         //    form.trigger('submit');
+            //         form.submit();
+            //     }
+            // }
+            //     }else{
+            let self = _this7;
+            let browser;
             if (_this7.appData.isWEBAPP) {
-              alert('check');
-              if (result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url) {
-                alert('check');
-                let form = document.getElementById('payMentGateWayForm');
-                console.log("payment details --> bookTicket() --> this.paymentType", _this7.paymentType);
-                _this7.commonStorage.localSet('bookedTicketDetails', result);
-                let formHtml = '';
-                for (let key in result) {
-                  if (result.hasOwnProperty(key)) {
-                    let value = result[key];
-                    console.log("bookTicket --> ", key, value);
-                    if (key == "passenger_contact_details" || key == "passengers_details") {
-                      value = encodeURIComponent(value);
-                    }
-                    let value2 = '';
-                    if (value) {
-                      value2 = value.toString().replace(/\n/g, '');
-                    }
-                    formHtml += '<input type="hidden" value="' + value2 + '" id="' + key + '" name="' + key + '"/>';
-                  }
-                }
-                if (!(_this7.paymentType == "31")) {
-                  form.innerHTML = formHtml;
-                }
-                let payScript = "var form = document.getElementById('ts-app-payment-form-redirect'); ";
-                // for version 5 or less payment gateway issue this ` token not working
-                //let versionNumber = this.platform && this.platform.version && this.platform.version() ? this.platform.version() : false;
-                let dirtyEl = '<input type="hidden" id="page_is_dirty" value="no">';
-                /*if (this.platform.is('android') && versionNumber && versionNumber.major <= 5) {
-                    payScript += "form.innerHTML = '" + formHtml + dirtyEl + "';";
-                    payScript += "form.action = '" + result.pay_gay_url + "';";
-                    payScript += "form.method = 'POST';";
-                    payScript += 'var e = document.getElementById("page_is_dirty");';
-                    payScript += 'if (e.value == "no") {e.value = "yes";form.submit();}';
-                    payScript += 'else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }';
-                }
-                else {*/
-                payScript += "form.innerHTML = `" + formHtml + dirtyEl + "`;";
-                payScript += "form.action = `" + result.pay_gay_url + "`;";
-                payScript += "form.method = 'POST';";
-                payScript += `var e = document.getElementById("page_is_dirty");`;
-                payScript += `if (e.value == "no") {e.value = "yes";form.submit();}`;
-                payScript += `else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }`;
-                //}
-                let payScript2 = "";
-                payScript2 += "var form = document.getElementById('ts-app-payment-form-redirect');";
-                /*if (this.platform.is('android') && versionNumber && versionNumber.major <= 5) {
-                    payScript2 += "form.innerHTML = '" + formHtml + dirtyEl + "';";
-                    payScript += "form.action = '" + result.pay_gay_url + "';";
-                    payScript += "form.method = 'POST';";
-                    payScript2 += 'var e = document.getElementById("page_is_dirty");';
-                    payScript2 += 'if (e.value == "yes") {e.value = "yes";form.submit();}';
-                    payScript2 += 'else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }';
-                }
-                     else {*/
-                payScript2 += "form.innerHTML = `" + formHtml + dirtyEl + "`;";
-                payScript += "form.action = `" + result.pay_gay_url + "`;";
-                payScript += "form.method = 'POST';";
-                payScript2 += `var e = document.getElementById("page_is_dirty");`;
-                payScript2 += `if (e.value == "yes") {e.value = "yes";form.submit();}`;
-                payScript2 += `else {var retVal = confirm("Are you sure you want to go Back?");if( retVal == true ){window.location = "http://local-cancel";}else{form.submit();} }`;
-                //}
-                //console.log("payScript --->", payScript);
-                // InAppBrowser will work in the app
-                if (result.html_body_contents && !result.pay_gay_url) {
-                  let parser = new DOMParser();
-                  let doc = parser.parseFromString(result.html_body_contents, "text/xml");
-                  let htmlStr = "";
-                  htmlStr += '<script src="https://www.paynimo.com/paynimocheckout/client/lib/jquery.min.js" type="text/javascript"></script>';
-                  payScript = "document.write(`" + htmlStr + result.html_body_contents + "<body></body>`);";
-                  payScript2 = payScript;
-                }
-                if (_this7.appData.isWEBAPP) {
-                  alert("inside");
-                  console.log('cordova -->');
-                  //  this.gotoPaymentModal(result.pay_gay_url);
-                  //let browser = cordova.ThemeableBrowser.open("http://siri-r5.ticketsimply.net/" + "bookings/payment_gateway_redirect_page", '_blank', this.options);
-                  // "http://103.117.212.198/~souvikst/redirect2.html"
-                  // const browser = this.iab.create("http://abct.abctransport.com/" + "bookings/payment_gateway_redirect_page", '_blank', this.options);
-                  // this.appData.BASE_URL
-                  const browser = _this7.iab.create(_this7.appData.BASE_URL + "bookings/payment_gateway_redirect_page", '_blank', _this7.options);
-                  let self = _this7;
-                  let track = 0;
-                  let prevUrl = '';
-                  browser.on('loadstart').subscribe(event => {
-                    console.log("loadstart -->", event);
-                    console.log(event.url, "eventCalling");
-                    //check the requested url if success the show success and ticket details
-                    alert(event.url);
-                    if (event.url.indexOf("payment_gateway_redirect_page") > -1 && prevUrl.indexOf("payment_gateway_redirect_page") > -1) {
-                      track = 0;
-                      console.log('1');
-                      console.log(event, "eventCalling");
-                    }
-                    //  if (event.url.indexOf("virtual_pay_vurl") > -1) {
-                    //     let splitedData = event.url.split("?")[1];
-                    //     console.log(splitedData,"splitedData")
-                    //     // this.http.get('virtual_pay_vurl').subscribe((response) => {
-                    //     //     console.log(response);
-                    //     //     let virtualPnr = response;
-                    //     //     console.log(virtualPnr,"virtualPnr")
-                    //     //  });
-                    //     // let virtualPnr = event.url.indexOf("pnr_number")
-                    //     // console.log(virtualPnr,"virtualPnr")
-                    // }
-                    alert(event.url);
-                    if ((event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
-                      let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').pnr_number;
-                      browser.close();
-                      // self.navCtrl.setRoot(TicketDetailsPage, {
-                      //   newBooking: true,
-                      //   success: true,
-                      //   pnrNumber: pnrNumber
-                      // });
-                      _this7.viewTicket = true;
-                      if (_this7.metaData.msiteFolder == 'ourbustheme') {
-                        _this7.navCtrl.navigateRoot('booking-details', _this7.navigationExtras);
-                      }
-                      _this7.commonService.gTrack('bookonlinesuccess', "ticket booking with online payment success");
-                      localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
-                      _this7.commonStorage.localSet('bookedTicketDetails', result);
-                      let navigationExtras = {
-                        queryParams: {
-                          new_booking: true
-                        }
-                      };
-                      // this.navCtrl.navigateRoot('booking-details', navigationExtras)
-                      _this7.navigationExtras = navigationExtras;
-                      // console.log(event.url,"eventCalling")
-                    }
-                    // else if ((event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1 ) {
-                    else if (event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1 || event.url.indexOf("customerCancellation") > -1 || event.url.indexOf("www.ticketsimply.com") > -1) {
-                      alert(event.url);
-                      self.commonStorage.localRemove('bookedTicketDetails');
-                      browser.close();
-                      // self.navCtrl.setRoot(TicketDetailsPage, {
-                      //   success: false
-                      // });
-                      // || customerCancellation
-                      _this7.viewTicket = false;
-                      _this7.paymentFailed = true;
-                      // this.util.showAlert("Booking Failed", result.message);
-                      _this7.commonService.gTrack('bookonlinefailure', "ticket not booked with online payment");
-                      // localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
-                      // this.commonStorage.localSet('bookedTicketDetails', result);
-                      // let navigationExtras: NavigationExtras = {
-                      //     queryParams: {
-                      //         new_booking: true,
-                      //     }
-                      // };
-                      // // this.navCtrl.navigateRoot('booking-details', navigationExtras)
-                      // this.navigationExtras = navigationExtras;
-                    } else if (event.url.indexOf("local-cancel") > -1) {
-                      // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
-                      alert(event.url);
-                      setTimeout(() => {
-                        browser.close();
-                      }, 500);
-                    }
-                  });
-                  // browser.addEventListener('loadstart', function (event) {
-                  //   console.log("loadstart -->", event);
-                  //   //check the requested url if success the show success and ticket details
-                  //   if (event.url.indexOf("payment_gateway_redirect_page") > -1 && prevUrl.indexOf("payment_gateway_redirect_page") > -1) {
-                  //     track = 0;
-                  //     console.log('1');
-                  //   }
-                  //   if ((event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
-                  //     let pnrNumber = self.commonStorage.localGet('bookedTicketDetails').pnr_number;
-                  //     browser.close();
-                  //     // self.navCtrl.setRoot(TicketDetailsPage, {
-                  //     //   newBooking: true,
-                  //     //   success: true,
-                  //     //   pnrNumber: pnrNumber
-                  //     // });
-                  //     localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
-                  //     let navigationExtras: NavigationExtras = {
-                  //       queryParams: {
-                  //         new_booking: true,
-                  //       }
-                  //     };
-                  //     this.navCtrl.navigateRoot('booking-details', navigationExtras)
-                  //   } else if ((event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) && event.url.indexOf('payment_gateway_redirect_page') <= -1) {
-                  //     self.commonStorage.localRemove('bookedTicketDetails');
-                  //     browser.close();
-                  //     // self.navCtrl.setRoot(TicketDetailsPage, {
-                  //     //   success: false
-                  //     // });
-                  //     localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
-                  //     let navigationExtras: NavigationExtras = {
-                  //       queryParams: {
-                  //         new_booking: true,
-                  //       }
-                  //     };
-                  //     this.navCtrl.navigateRoot('booking-details', navigationExtras)
-                  //   } else if (event.url.indexOf("local-cancel") > -1) {
-                  //     // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
-                  //     setTimeout(() => {
-                  //       browser.close();
-                  //     }, 500);
-                  //   }
-                  // });
-                  //  on url load stop
-                  browser.on('loadstop').subscribe(event => {
-                    console.log("loadstop -->", event);
-                    console.log(event.url, "eventCalling");
-                    // browser.executeScript({
-                    //   code: "var key = 'hidden'; var keyval = 'yes'; localStorage.setItem('hidden',''); var button = document.createElement('Button'); button.innerHTML = 'Hide Map'; button.style = 'top:0;right:0;position:fixed;'; document.body.appendChild(button); button.setAttribute('onclick','localStorage.setItem(key,keyval);');"
-                    // });
-                    // var loop = setInterval(function () {
-                    //   browser.executeScript({
-                    //     code: "localStorage.getItem( 'hidden' )"
-                    //   }),
-                    //     function (values) {
-                    //       var hidden = values[0];
-                    //       if (hidden === 'yes') {
-                    //         clearInterval(loop);
-                    //         browser.hide();
-                    //       }
-                    //     }
-                    // });
-                    // prevUrl = event.url;
-                    //   browser.insertCSS({ code: "input{-webkit-user-select: none !important;}input[type=submit],input[type=button]{-webkit-user-select: auto !important;}" });
-                    if (event.url.indexOf("payment_gateway_redirect_page") > -1) {
-                      if (track <= 0) {
-                        console.log("Payscript 1 -----------");
-                        browser.executeScript({
-                          code: payScript
-                        });
-                      } else {
-                        console.log("Payscript 2 -----------");
-                        browser.executeScript({
-                          code: payScript2
-                        });
-                      }
-                    }
-                    track++;
-                    console.log("loadstart -->", event);
-                  });
-                  // browser.addEventListener('loadstop', function (event) {
-                  //   prevUrl = event.url;
-                  // //   if (self.platform.is('android'))
-                  //     // browser.insertCSS({ code: "input{-webkit-user-select: none !important;}input[type=submit],input[type=button]{-webkit-user-select: auto !important;}" });
-                  //   if (event.url.indexOf("redirect2.html") > -1) {
-                  //     if (track <= 0) {
-                  //       console.log("Payscript 1 -----------")
-                  //       browser.executeScript({
-                  //         code: payScript
-                  //       });
-                  //     } else {
-                  //       console.log("Payscript 2 -----------")
-                  //       browser.executeScript({
-                  //         code: payScript2
-                  //       });
-                  //     }
-                  //   }
-                  //   track++;
-                  //   console.log("loadstart -->", event);
-                  // });
-                  //on closing the browser
-                  browser.on('exit').subscribe(event => {
-                    browser.executeScript({
-                      code: payScript
-                    });
-                    console.log("exit -->", event);
-                    console.log(event.url, "eventCalling");
-                  });
-                  // browser.addEventListener('exit', function (event) {
-                  //   browser.executeScript({
-                  //     code: payScript
-                  //   });
-                  //   console.log("exit -->", event);
-                  // });
-                  //   browser.on('').subscribe(event => {
-                  //     browser.insertCSS({ code: "body{color: red;" });
-                  //  });
-                  //   browser.addEventListener('backPressed', function (event) {
-                  //     navigator.notification.confirm('Are you sure you want to go Back?', function (index) {
-                  //       if (index == 1) {
-                  //         // self.navCtrl.popTo(self.navCtrl.getByIndex(1));
-                  //         setTimeout(() => {
-                  //           browser.close();
-                  //         }, 500);
-                  //       }
-                  //     }, '', ['YES', 'NO']);
-                  //   }, false);
-                } else {
-                  // web browser
-                  console.log('web browser -->123');
-                  form.action = result.pay_gay_url;
-                  // form.action ="http://creatorsenclose.in/test.php";
-                  form.method = "POST";
-                  // console.log("form ", form.submit());
-                  // function logSubmit(event) {
-                  //     console.log("event Listener 12345")
-                  //     console.log(location,JSON.stringify(window.navigator))
-                  //     window.addEventListener('loadstart',logSubmit );
-                  //     // event.preventDefault();
-                  // }
-                  // // form.onloadstart = logSubmit
-                  // // window.addEventListener('loadstart',logSubmit );
-                  // // form.addEventListener('loadstart',logSubmit,false );
-                  // form.addEventListener('submit',logSubmit );
-                  // // form.addEventListener('loadstart',logSubmit );
-                  // //    console.log("test1233")
-                  //    form.dispatchEvent(new Event('submit'));
-                  //    form.trigger('submit');
-                  form.submit();
-                }
-              }
-            } else {
-              let self = _this7;
-              const browser = _this7.iab.create(result.pay_flow, '_blank', {
+              browser = _this7.iab.create(result.pay_flow, '_self', {
                 location: 'no',
                 toolbar: 'no'
               });
-              browser.on('loadstart').subscribe(event => {
-                if (event.url.indexOf('ticket-confirm') > -1) {
-                  browser.close();
-                  _this7.firebaseAnalyticsService.logCustomEvent('payment_success', {
-                    page: 'Payment Details Page'
-                  });
-                  _this7.commonStorage.localSet('bookedTicketDetails', result);
-                  localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
-                  let navigationExtras = {
-                    queryParams: {
-                      new_booking: 'true'
-                    }
-                  };
-                  _this7.navigationExtras = navigationExtras;
-                  _this7.viewTicket = true;
-                  if (_this7.metaData.msiteFolder == 'ourbustheme' || _this7.metaData.msiteFolder == 'shyamolitheme') {
-                    _this7.paymentSuccessEvent();
-                    _this7.navCtrl.navigateRoot('booking-details', _this7.navigationExtras);
-                  }
-                } else if (event.url.indexOf('ticket-cancel') > -1 || event.url.includes('failed')) {
-                  self.commonStorage.localRemove('bookedTicketDetails');
-                  browser.close();
-                  _this7.viewTicket = false;
-                  _this7.paymentFailed = true;
-                  if (_this7.metaData.msiteFolder == 'ourbustheme') {
-                    _this7.paymentFailureEvent();
-                  }
-                  _this7.firebaseAnalyticsService.logCustomEvent('payment_failed', {
-                    page: 'Payment Details Page'
-                  });
-                }
+            } else {
+              browser = _this7.iab.create(result.pay_flow, '_blank', {
+                location: 'no',
+                toolbar: 'no'
               });
             }
+            browser.on('loadstart').subscribe(event => {
+              if (event.url.indexOf('ticket-confirm') > -1) {
+                browser.close();
+                _this7.firebaseAnalyticsService.logCustomEvent('payment_success', {
+                  page: 'Payment Details Page'
+                });
+                _this7.commonStorage.localSet('bookedTicketDetails', result);
+                localStorage.setItem('bookingDetails', JSON.stringify(self.commonStorage.localGet('bookedTicketDetails')));
+                let navigationExtras = {
+                  queryParams: {
+                    new_booking: 'true'
+                  }
+                };
+                _this7.navigationExtras = navigationExtras;
+                _this7.viewTicket = true;
+                if (_this7.metaData.msiteFolder == 'ourbustheme' || _this7.metaData.msiteFolder == 'shyamolitheme') {
+                  _this7.paymentSuccessEvent();
+                  _this7.navCtrl.navigateRoot('booking-details', _this7.navigationExtras);
+                }
+              } else if (event.url.indexOf('ticket-cancel') > -1 || event.url.includes('failed')) {
+                self.commonStorage.localRemove('bookedTicketDetails');
+                browser.close();
+                _this7.viewTicket = false;
+                _this7.paymentFailed = true;
+                if (_this7.metaData.msiteFolder == 'ourbustheme') {
+                  _this7.paymentFailureEvent();
+                }
+                _this7.firebaseAnalyticsService.logCustomEvent('payment_failed', {
+                  page: 'Payment Details Page'
+                });
+              }
+            });
+            // }
             // Optional: Handle events
             //   browser.on('loadstop').subscribe(event => {
             //     console.log('Page loaded:', event.url);
