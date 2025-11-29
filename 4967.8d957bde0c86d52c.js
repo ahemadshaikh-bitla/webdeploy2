@@ -12514,7 +12514,8 @@ class PaymentDetailsPage {
                   payScript = "document.write(`" + htmlStr + result.html_body_contents + "<body></body>`);";
                   payScript2 = payScript;
                 }
-                if ((_this7.platform.is('cordova') || _this7.platform.is('android') || _this7.platform.is('ios')) && !_this7.appData.isWEBAPP) {
+                if (_this7.appData.isWEBAPP) {
+                  alert("inside");
                   console.log('cordova -->');
                   //  this.gotoPaymentModal(result.pay_gay_url);
                   //let browser = cordova.ThemeableBrowser.open("http://siri-r5.ticketsimply.net/" + "bookings/payment_gateway_redirect_page", '_blank', this.options);
