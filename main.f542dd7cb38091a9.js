@@ -69703,7 +69703,7 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "1.1.3"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.mobileWebVersion = "1.1.5"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     this.iosVersion = "3.8";
     this.androidVersion = "15.9";
     // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
@@ -69719,7 +69719,7 @@ class AppData {
     // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
-    //  this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/"
+    //  this.BASE_URL = "https://rjto-qa1.ticketsimply.co.in/"
     // this.BASE_URL = "https://www.tsrtconline.site/";
     // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
@@ -117682,7 +117682,7 @@ class UtilProvider {
     if (theme && allowedThemes.includes(theme)) {
       return theme;
     }
-    return 'shyamolitheme';
+    return '';
   }
 }
 _UtilProvider = UtilProvider;

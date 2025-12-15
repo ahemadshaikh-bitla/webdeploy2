@@ -9032,12 +9032,18 @@ class AvailableRoutesPage {
         serviceCount === 0 ? this.callAlertBox() : this.navCtrl.navigateBack(['/stage-details']);
       } else {
         // Otherwise navigate back to the home page
+        this.commonStorage.localRemove('selecetedSeat');
+        this.apiFacory.filter('true');
         this.navCtrl.navigateBack(['/home']);
       }
     } else {
       if (this.isreturnTrip) {
         // If it's a return trip, navigate back to seat layout
         this.isreturnTrip = false;
+        if (!this.isreturnTrip) {
+          this.commonStorage.localRemove('selectedSeat');
+          this.commonStorage.localRemove('selectedSeatReturn');
+        }
         this.commonStorage.localRemove('selectedSeatReturn');
         this.navCtrl.navigateBack(['/seat-layout']);
       } else {
@@ -9512,6 +9518,7 @@ class AvailableRoutesPage {
       this.commonStorage.localRemove('selectedSeatReturn');
       if (!this.isreturnTrip) {
         this.commonStorage.localRemove('selectedSeat');
+        this.commonStorage.localRemove('selectedSeatReturn');
       }
       this.navCtrl.navigateForward('seat-layout', navigationExtras);
     }
