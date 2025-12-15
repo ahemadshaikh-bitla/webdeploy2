@@ -117682,7 +117682,7 @@ class UtilProvider {
     if (theme && allowedThemes.includes(theme)) {
       return theme;
     }
-    return '';
+    return 'shyamolitheme';
   }
 }
 _UtilProvider = UtilProvider;
