@@ -2303,34 +2303,38 @@ class AddMoneyWalletPage {
       const browser = this.iab.create(this.appData.BASE_URL + "bookings/payment_gateway_redirect_page", '_blank', 'location=no,toolbar=no');
       let self = this;
       browser.on('loadstart').subscribe(event => {
-        if (event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1) {
+        console.log("Payment Gateway URL:", event.url);
+        if (event.url.indexOf("status=0") > -1 || event.url.indexOf("pnr_number") > -1 || event.url.indexOf("order_num") > -1 || event.url.indexOf('add-money-wallet-confirm') > -1) {
           this.firebaseAnalyticsService.logCustomEvent('payment_success', {
             page: 'Add Money Wallet'
           });
           browser.close();
-        } else if (event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1) {
+          this.modalCtrl.dismiss('success');
+        } else if (event.url.indexOf("ticket_failure") > -1 || event.url.indexOf("status=1") > -1 || event.url.indexOf('failed') > -1 || event.url.indexOf('add-money-wallet-cancel') > -1) {
           // this.commonService.gTrack('addwallet','adding money to wallet failed')
           this.firebaseAnalyticsService.logCustomEvent('payment_failed', {
             page: 'Add Money Wallet'
           });
           browser.close();
+          this.modalCtrl.dismiss('1');
         }
       });
       browser.on('loadstop').subscribe(event => {
         browser.executeScript({
           code: "var key = 'hidden'; var keyval = 'yes'; localStorage.setItem('hidden',''); var button = document.createElement('Button'); button.innerHTML = 'Hide Map'; button.style = 'top:0;right:0;position:fixed;'; document.body.appendChild(button); button.setAttribute('onclick','localStorage.setItem(key,keyval);');"
         });
-        var loop = setInterval(function () {
-          browser.executeScript({
-            code: "localStorage.getItem( 'hidden' )"
-          }), function (values) {
-            var hidden = values[0];
-            if (hidden === 'yes') {
-              clearInterval(loop);
-              browser.hide();
-            }
-          };
-        });
+        // var loop = setInterval(function () {
+        //   browser.executeScript({
+        //     code: "localStorage.getItem( 'hidden' )"
+        //   }),
+        //     function (values : any) {
+        //       var hidden = values[0];
+        //       if (hidden === 'yes') {
+        //         clearInterval(loop);
+        //         browser.hide();
+        //       }
+        //     }
+        // });
         browser.insertCSS({
           code: "input{-webkit-user-select: none !important;}input[type=submit],input[type=button]{-webkit-user-select: auto !important;}"
         });

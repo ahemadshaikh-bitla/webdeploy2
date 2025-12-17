@@ -1925,6 +1925,48 @@ ion-content {
   -inner-padding-start: 0px;
   --inner-padding-end: 0px;
 }
+
+body.webapp .ios ion-content {
+  --keyboard-offset: 0px !important;
+}
+body.webapp .ios ion-footer {
+  padding-bottom: 15px;
+}
+body.webapp .ios.keyboard-open ion-content, body.keyboard-open body.webapp .ios ion-content {
+  --keyboard-offset: 250px !important;
+  padding-bottom: 250px !important;
+}
+body.webapp .ios.keyboard-open .fixed-bottom,
+body.webapp .ios.keyboard-open .login-btn,
+body.webapp .ios.keyboard-open .themeone-login-btn,
+body.webapp .ios.keyboard-open .themeone-login-btn-2, body.keyboard-open body.webapp .ios .fixed-bottom,
+body.keyboard-open body.webapp .ios .login-btn,
+body.keyboard-open body.webapp .ios .themeone-login-btn,
+body.keyboard-open body.webapp .ios .themeone-login-btn-2 {
+  bottom: 270px !important;
+  transition: bottom 0.3s ease;
+}
+body.webapp .ios:has(input:focus) ion-content, body.webapp .ios:has(ion-input:focus-within) ion-content, body.webapp .ios:has(ion-select:focus-within) ion-content {
+  --keyboard-offset: 250px !important;
+  padding-bottom: 250px !important;
+}
+@supports (-webkit-appearance: none) {
+  body.webapp .ios ion-content {
+    height: 100dvh;
+    min-height: -webkit-fill-available;
+  }
+  @media screen and (max-height: 500px) {
+    body.webapp .ios ion-content {
+      padding-bottom: 300px !important;
+    }
+    body.webapp .ios .fixed-bottom,
+    body.webapp .ios .login-btn,
+    body.webapp .ios .themeone-login-btn,
+    body.webapp .ios .themeone-login-btn-2 {
+      bottom: 320px !important;
+    }
+  }
+}
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!./src/theme/variables.scss?ngGlobalStyle ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/

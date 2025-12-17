@@ -1256,10 +1256,10 @@ function PersonalDetailPage_ng_container_1_Template(rf, ctx) {
 function PersonalDetailPage_ng_container_2_div_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 185)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 186);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 186)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5, "Enter New Phone Number");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](6, "ion-input", 187);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](6, "ion-input", 188);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_2_div_7_Template_ion_input_ngModelChange_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r30);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1269,7 +1269,7 @@ function PersonalDetailPage_ng_container_2_div_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](8, "ion-col", 76)(9, "ion-col", 76);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "ion-col", 188);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "ion-col", 189);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_2_div_7_Template_ion_col_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r30);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1286,7 +1286,7 @@ function PersonalDetailPage_ng_container_2_div_7_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_div_8_span_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 196);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 197);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1299,7 +1299,7 @@ function PersonalDetailPage_ng_container_2_div_8_span_12_Template(rf, ctx) {
 function PersonalDetailPage_ng_container_2_div_8_div_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r32 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 197);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 198);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_2_div_8_div_13_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r32);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](3);
@@ -1312,12 +1312,12 @@ function PersonalDetailPage_ng_container_2_div_8_div_13_Template(rf, ctx) {
 function PersonalDetailPage_ng_container_2_div_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r31 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 185)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 186)(5, "span", 189);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 186)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 187)(5, "span", 190);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7, "Verify OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "ion-row")(9, "ion-col", 190)(10, "ion-input", 191);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "ion-row")(9, "ion-col", 191)(10, "ion-input", 192);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_2_div_8_Template_ion_input_ngModelChange_10_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r31);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1326,9 +1326,9 @@ function PersonalDetailPage_ng_container_2_div_8_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "ion-col", 38);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](12, PersonalDetailPage_ng_container_2_div_8_span_12_Template, 2, 1, "span", 192)(13, PersonalDetailPage_ng_container_2_div_8_div_13_Template, 2, 0, "div", 193);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](12, PersonalDetailPage_ng_container_2_div_8_span_12_Template, 2, 1, "span", 193)(13, PersonalDetailPage_ng_container_2_div_8_div_13_Template, 2, 0, "div", 194);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](14, "ion-row")(15, "ion-col", 194);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](14, "ion-row")(15, "ion-col", 195);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_2_div_8_Template_ion_col_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r31);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1336,7 +1336,7 @@ function PersonalDetailPage_ng_container_2_div_8_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](16, "CANCEL");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](17, "ion-col", 195);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](17, "ion-col", 196);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_2_div_8_Template_ion_col_click_17_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r31);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1454,7 +1454,7 @@ function PersonalDetailPage_ng_container_2_img_21_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_radio_group_26_span_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1465,18 +1465,18 @@ function PersonalDetailPage_ng_container_2_ion_radio_group_26_span_6_Template(rf
 }
 function PersonalDetailPage_ng_container_2_ion_radio_group_26_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-radio-group", 198)(1, "ion-row", 199)(2, "ion-col", 200)(3, "ion-item", 201)(4, "div", 202);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-radio-group", 199)(1, "ion-row", 200)(2, "ion-col", 201)(3, "ion-item", 202)(4, "div", 203);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5, " Gender");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_ion_radio_group_26_span_6_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_ion_radio_group_26_span_6_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-col", 204)(8, "ion-item", 205);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](9, "ion-radio", 206);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "div", 207);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-col", 205)(8, "ion-item", 206);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](9, "ion-radio", 207);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](10, "div", 208);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](11, " Male");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](12, "ion-col", 126)(13, "ion-item", 205);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](14, "ion-radio", 208);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](15, "div", 207);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](12, "ion-col", 126)(13, "ion-item", 206);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](14, "ion-radio", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](15, "div", 208);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](16, " Female");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
   }
@@ -1489,16 +1489,16 @@ function PersonalDetailPage_ng_container_2_ion_radio_group_26_Template(rf, ctx) 
 }
 function PersonalDetailPage_ng_container_2_ion_item_27_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_ion_item_27_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 210)(2, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 211)(2, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3, "Name ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_27_span_4_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_27_span_4_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1511,16 +1511,16 @@ function PersonalDetailPage_ng_container_2_ion_item_27_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_28_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_ion_item_28_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 212)(2, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 213)(2, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3, "Last Name ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_28_span_4_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_28_span_4_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1533,18 +1533,18 @@ function PersonalDetailPage_ng_container_2_ion_item_28_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_29_span_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_ion_item_29_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item", 213);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](1, "img", 214);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "ion-input", 215)(3, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item", 214);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](1, "img", 215);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "ion-input", 216)(3, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](4, "DOB ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](5, PersonalDetailPage_ng_container_2_ion_item_29_span_5_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](5, PersonalDetailPage_ng_container_2_ion_item_29_span_5_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1574,7 +1574,7 @@ function PersonalDetailPage_ng_container_2_ng_template_31_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_32_span_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1582,11 +1582,11 @@ function PersonalDetailPage_ng_container_2_ion_item_32_span_6_Template(rf, ctx) 
 function PersonalDetailPage_ng_container_2_ion_item_32_Template(rf, ctx) {
   if (rf & 1) {
     const _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item", 216)(1, "ion-row", 108)(2, "ion-col", 217)(3, "ion-input", 218)(4, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item", 217)(1, "ion-row", 108)(2, "ion-col", 218)(3, "ion-input", 219)(4, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5, "Phone Number ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_ion_item_32_span_6_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_ion_item_32_span_6_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-col", 219)(8, "ion-button", 220);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-col", 220)(8, "ion-button", 221);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_2_ion_item_32_Template_ion_button_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r37);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1605,7 +1605,7 @@ function PersonalDetailPage_ng_container_2_ion_item_32_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_33_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1613,15 +1613,15 @@ function PersonalDetailPage_ng_container_2_ion_item_33_span_4_Template(rf, ctx) 
 function PersonalDetailPage_ng_container_2_ion_item_33_Template(rf, ctx) {
   if (rf & 1) {
     const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 221);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 222);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ionChange", function PersonalDetailPage_ng_container_2_ion_item_33_Template_ion_input_ionChange_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r38);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵresetView"](ctx_r1.OnInputChange());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](2, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3, "Emergency Phone ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_33_span_4_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_33_span_4_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1634,16 +1634,16 @@ function PersonalDetailPage_ng_container_2_ion_item_33_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_34_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_ion_item_34_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 222)(2, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 223)(2, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3, "Email ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_34_span_4_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_34_span_4_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1656,16 +1656,16 @@ function PersonalDetailPage_ng_container_2_ion_item_34_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_35_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_ion_item_35_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 223)(2, "div", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-input", 224)(2, "div", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](3, "Email ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_35_span_4_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_ion_item_35_span_4_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1678,7 +1678,7 @@ function PersonalDetailPage_ng_container_2_ion_item_35_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_div_36_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1689,14 +1689,14 @@ function PersonalDetailPage_ng_container_2_div_36_span_3_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
 }
 function PersonalDetailPage_ng_container_2_div_36_ion_row_4_ion_select_option_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-select-option", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-select-option", 230);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1709,7 +1709,7 @@ function PersonalDetailPage_ng_container_2_div_36_ion_row_4_ion_select_option_7_
 }
 function PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1717,21 +1717,21 @@ function PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_11_Template(rf,
 function PersonalDetailPage_ng_container_2_div_36_ion_row_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r39 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 67)(2, "ion-item")(3, "ion-select", 225);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 67)(2, "ion-item")(3, "ion-select", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ionChange", function PersonalDetailPage_ng_container_2_div_36_ion_row_4_Template_ion_select_ionChange_3_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r39);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵresetView"](ctx_r1.cardChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "div", 227);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5, "ID Type ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_6_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](6, PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_6_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](7, PersonalDetailPage_ng_container_2_div_36_ion_row_4_ion_select_option_7_Template, 2, 2, "ion-select-option", 227);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](7, PersonalDetailPage_ng_container_2_div_36_ion_row_4_ion_select_option_7_Template, 2, 2, "ion-select-option", 228);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "ion-col", 67)(9, "ion-item");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](10, "ion-input", 228);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](11, PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_11_Template, 2, 0, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](10, "ion-input", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](11, PersonalDetailPage_ng_container_2_div_36_ion_row_4_span_11_Template, 2, 0, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -1753,10 +1753,10 @@ function PersonalDetailPage_ng_container_2_div_36_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div")(1, "ion-label", 147);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](2, "ID Card");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_div_36_span_3_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_div_36_span_3_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](4, PersonalDetailPage_ng_container_2_div_36_ion_row_4_Template, 12, 6, "ion-row", 66);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](5, "ion-row")(6, "div", 224);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](5, "ion-row")(6, "div", 225);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7, "This is a one-time entry for your ID card details. Once submitted, changes cannot be made.");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
   }
@@ -1770,7 +1770,7 @@ function PersonalDetailPage_ng_container_2_div_36_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_37_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1795,11 +1795,11 @@ function PersonalDetailPage_ng_container_2_ion_item_37_ion_select_option_5_Templ
 function PersonalDetailPage_ng_container_2_ion_item_37_Template(rf, ctx) {
   if (rf & 1) {
     const _r42 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 230);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](2, "Nationality");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_37_span_3_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_37_span_3_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 231);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 232);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_2_ion_item_37_Template_ion_select_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r42);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1828,7 +1828,7 @@ function PersonalDetailPage_ng_container_2_ion_item_37_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_38_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1853,11 +1853,11 @@ function PersonalDetailPage_ng_container_2_ion_item_38_ion_select_option_5_Templ
 function PersonalDetailPage_ng_container_2_ion_item_38_Template(rf, ctx) {
   if (rf & 1) {
     const _r44 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 230);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](2, "State");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_38_span_3_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_38_span_3_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 233);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_2_ion_item_38_Template_ion_select_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r44);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1886,7 +1886,7 @@ function PersonalDetailPage_ng_container_2_ion_item_38_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_39_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1911,11 +1911,11 @@ function PersonalDetailPage_ng_container_2_ion_item_39_ion_select_option_5_Templ
 function PersonalDetailPage_ng_container_2_ion_item_39_Template(rf, ctx) {
   if (rf & 1) {
     const _r46 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 230);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](2, "City ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_39_span_3_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_39_span_3_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 233);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](4, "ion-select", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_2_ion_item_39_Template_ion_select_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r46);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -1944,7 +1944,7 @@ function PersonalDetailPage_ng_container_2_ion_item_39_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_2_ion_item_40_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -1955,11 +1955,11 @@ function PersonalDetailPage_ng_container_2_ion_item_40_span_3_Template(rf, ctx) 
 }
 function PersonalDetailPage_ng_container_2_ion_item_40_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "ion-item")(1, "ion-label", 235);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](2, "Address");
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_40_span_3_Template, 2, 1, "span", 203);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](3, PersonalDetailPage_ng_container_2_ion_item_40_span_3_Template, 2, 1, "span", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](4, "ion-textarea", 235);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](4, "ion-textarea", 236);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -1986,7 +1986,7 @@ function PersonalDetailPage_ng_container_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6, "Personal Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](7, PersonalDetailPage_ng_container_2_div_7_Template, 12, 1, "div", 178)(8, PersonalDetailPage_ng_container_2_div_8_Template, 20, 3, "div", 178)(9, PersonalDetailPage_ng_container_2_div_9_Template, 12, 0, "div", 56)(10, PersonalDetailPage_ng_container_2_div_10_Template, 15, 0, "div", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "ion-content", 179)(12, "ion-card")(13, "ion-card-content", 180)(14, "div", 12)(15, "form", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "ion-content", 179)(12, "ion-card", 180)(13, "ion-card-content", 181)(14, "div", 12)(15, "form", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngSubmit", function PersonalDetailPage_ng_container_2_Template_form_ngSubmit_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r29);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
@@ -2008,12 +2008,12 @@ function PersonalDetailPage_ng_container_2_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵresetView"](ctx_r1.onFileSelected($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](26, PersonalDetailPage_ng_container_2_ion_radio_group_26_Template, 17, 2, "ion-radio-group", 181)(27, PersonalDetailPage_ng_container_2_ion_item_27_Template, 5, 2, "ion-item", 5)(28, PersonalDetailPage_ng_container_2_ion_item_28_Template, 5, 2, "ion-item", 5)(29, PersonalDetailPage_ng_container_2_ion_item_29_Template, 6, 2, "ion-item", 182);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](26, PersonalDetailPage_ng_container_2_ion_radio_group_26_Template, 17, 2, "ion-radio-group", 182)(27, PersonalDetailPage_ng_container_2_ion_item_27_Template, 5, 2, "ion-item", 5)(28, PersonalDetailPage_ng_container_2_ion_item_28_Template, 5, 2, "ion-item", 5)(29, PersonalDetailPage_ng_container_2_ion_item_29_Template, 6, 2, "ion-item", 183);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](30, "ion-modal", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](31, PersonalDetailPage_ng_container_2_ng_template_31_Template, 2, 1, "ng-template");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](32, PersonalDetailPage_ng_container_2_ion_item_32_Template, 10, 2, "ion-item", 183)(33, PersonalDetailPage_ng_container_2_ion_item_33_Template, 5, 2, "ion-item", 5)(34, PersonalDetailPage_ng_container_2_ion_item_34_Template, 5, 2, "ion-item", 5)(35, PersonalDetailPage_ng_container_2_ion_item_35_Template, 5, 2, "ion-item", 5)(36, PersonalDetailPage_ng_container_2_div_36_Template, 8, 2, "div", 5)(37, PersonalDetailPage_ng_container_2_ion_item_37_Template, 6, 5, "ion-item", 5)(38, PersonalDetailPage_ng_container_2_ion_item_38_Template, 6, 5, "ion-item", 5)(39, PersonalDetailPage_ng_container_2_ion_item_39_Template, 6, 5, "ion-item", 5)(40, PersonalDetailPage_ng_container_2_ion_item_40_Template, 5, 2, "ion-item", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](41, "ion-button", 184);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](32, PersonalDetailPage_ng_container_2_ion_item_32_Template, 10, 2, "ion-item", 184)(33, PersonalDetailPage_ng_container_2_ion_item_33_Template, 5, 2, "ion-item", 5)(34, PersonalDetailPage_ng_container_2_ion_item_34_Template, 5, 2, "ion-item", 5)(35, PersonalDetailPage_ng_container_2_ion_item_35_Template, 5, 2, "ion-item", 5)(36, PersonalDetailPage_ng_container_2_div_36_Template, 8, 2, "div", 5)(37, PersonalDetailPage_ng_container_2_ion_item_37_Template, 6, 5, "ion-item", 5)(38, PersonalDetailPage_ng_container_2_ion_item_38_Template, 6, 5, "ion-item", 5)(39, PersonalDetailPage_ng_container_2_ion_item_39_Template, 6, 5, "ion-item", 5)(40, PersonalDetailPage_ng_container_2_ion_item_40_Template, 5, 2, "ion-item", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](41, "ion-button", 185);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](42, "Update");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementContainerEnd"]();
@@ -2177,7 +2177,7 @@ function PersonalDetailPage_ng_container_3_ion_select_option_106_Template(rf, ct
 function PersonalDetailPage_ng_container_3_div_117_Template(rf, ctx) {
   if (rf & 1) {
     const _r54 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 185)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 186)(5, "span", 189);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 186)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 187)(5, "span", 190);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7, "Enter New Phone Number");
@@ -2190,7 +2190,7 @@ function PersonalDetailPage_ng_container_3_div_117_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](9, "ion-row")(10, "ion-col", 194);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](9, "ion-row")(10, "ion-col", 195);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_3_div_117_Template_ion_col_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r54);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -2217,7 +2217,7 @@ function PersonalDetailPage_ng_container_3_div_117_Template(rf, ctx) {
 }
 function PersonalDetailPage_ng_container_3_div_118_span_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 196);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "span", 197);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
   }
@@ -2230,7 +2230,7 @@ function PersonalDetailPage_ng_container_3_div_118_span_12_Template(rf, ctx) {
 function PersonalDetailPage_ng_container_3_div_118_div_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 197);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 198);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_3_div_118_div_13_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r56);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](3);
@@ -2243,12 +2243,12 @@ function PersonalDetailPage_ng_container_3_div_118_div_13_Template(rf, ctx) {
 function PersonalDetailPage_ng_container_3_div_118_Template(rf, ctx) {
   if (rf & 1) {
     const _r55 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 185)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 186)(5, "span", 189);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 186)(1, "div", 87)(2, "div")(3, "ion-label")(4, "div", 187)(5, "span", 190);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](6, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](7, "Verify OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "ion-row")(9, "ion-col", 190)(10, "ion-input", 191);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](8, "ion-row")(9, "ion-col", 191)(10, "ion-input", 192);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtwoWayListener"]("ngModelChange", function PersonalDetailPage_ng_container_3_div_118_Template_ion_input_ngModelChange_10_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r55);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -2257,9 +2257,9 @@ function PersonalDetailPage_ng_container_3_div_118_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](11, "ion-col", 38);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](12, PersonalDetailPage_ng_container_3_div_118_span_12_Template, 2, 1, "span", 192)(13, PersonalDetailPage_ng_container_3_div_118_div_13_Template, 2, 0, "div", 193);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](12, PersonalDetailPage_ng_container_3_div_118_span_12_Template, 2, 1, "span", 193)(13, PersonalDetailPage_ng_container_3_div_118_div_13_Template, 2, 0, "div", 194);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](14, "ion-row")(15, "ion-col", 194);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](14, "ion-row")(15, "ion-col", 195);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_3_div_118_Template_ion_col_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r55);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -2267,7 +2267,7 @@ function PersonalDetailPage_ng_container_3_div_118_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](16, "CANCEL");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](17, "ion-col", 195);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](17, "ion-col", 196);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_3_div_118_Template_ion_col_click_17_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r55);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"](2);
@@ -2364,7 +2364,7 @@ function PersonalDetailPage_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r48 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "ion-header", 236)(2, "ion-toolbar", 237)(3, "ion-row")(4, "ion-col", 94)(5, "ion-buttons");
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "ion-header", 237)(2, "ion-toolbar", 180)(3, "ion-row")(4, "ion-col", 94)(5, "ion-buttons");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](6, "ion-back-button");
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](7, "ion-col", 238)(8, "div", 97);
@@ -2664,7 +2664,7 @@ function PersonalDetailPage_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r59 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "ion-header", 278)(2, "ion-toolbar", 237)(3, "ion-buttons", 279);
+    _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](1, "ion-header", 278)(2, "ion-toolbar", 180)(3, "ion-buttons", 279);
     _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function PersonalDetailPage_ng_container_4_Template_ion_buttons_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵrestoreView"](_r59);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵnextContext"]();
@@ -3668,7 +3668,7 @@ _PersonalDetailPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   standalone: false,
   decls: 5,
   vars: 5,
-  consts: [["popoverDatetime", ""], ["emergencyInput", ""], ["countrySelect", ""], ["stateSelect", ""], ["citySelect", ""], [4, "ngIf"], ["mode", "ios", 1, "ion-no-border", "theme1"], ["mode", "ios", "mode", "md", 2, "--border-width", "0px", 3, "ngClass"], [1, "themeone-head", 2, "margin-right", "40px"], ["slot", "start"], [2, "color", "#333333"], ["fullscreen", "true", 1, "themeone-bg-content", "theme1", 2, "--offset-top", "1px !important", "z-index", "inherit"], [1, "center-div"], [1, "profileForm", 3, "ngSubmit", "formGroup"], [2, "width", "-webkit-fill-available", "display", "flex", "justify-content", "center", "align-items", "center"], ["lines", "none", 1, "themeone-ion-item", 2, "--padding-start", "8px"], [1, "photoButton", 2, "text-align", "center", "height", "124px", "width", "124px"], ["src", "./assets/icon/themeone-profileimg.svg", "class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "Default Profile Image", 4, "ngIf"], ["class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "User Photo", 3, "src", 4, "ngIf"], ["class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "Profile Image", 3, "src", 4, "ngIf"], [1, "upload-icon", 2, "background-color", "var(--homaPageHeadingTextColor)"], ["src", "./assets/icon/ourbus_edit_pencil.svg", "size", "large", 2, "height", "20px", "margin-top", "4px", "filter", "invert(1) brightness(2)", 3, "click"], [1, "profile-container"], ["type", "file", "accept", "image/*", "id", "fileInput", "hidden", "", 3, "change"], [2, "width", "-webkit-fill-available", "display", "grid", "justify-content", "center", "text-align", "center"], [1, "themeone_namelbl", 2, "padding", "5px 0px 8px 0px"], [1, "themeone_mobilelbl"], [1, "themeone-ion-item"], ["label", "Name", "labelPlacement", "floating", "type", "text", "formControlName", "name", 1, "themeone-input-text", "themeone-txt-lbl", "input-txt", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["label", "Last Name", "labelPlacement", "floating", "type", "text", "formControlName", "lastName", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["tappable", "", "id", "open-date-input-6", 1, "themeone-ion-item"], ["src", "././assets/icon/calendar-2-line.svg", "alt", "", "slot", "end", 2, "align-self", "end", "margin-bottom", "10px"], ["label", "Date of birth", "labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "themeone-txt-lbl", "txt-lbl", 2, "font-size", "15px", "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["trigger", "open-date-input-6"], ["tappable", "", "lines", "none", 1, "themeone-ion-item"], [2, "width", "100%"], ["size", "9", 2, "padding-left", "0px", "border-bottom", "1px solid #ccc"], ["label", "Phone Number", "labelPlacement", "floating", "type", "tel", "readonly", "", 1, "themeone-txt-lbl", "themeone-input-text", 2, "--padding-top", "8px", "--padding-bottom", "8px", 3, "value"], ["size", "3"], ["expand", "block", 1, "themeone-btnEdit", 3, "click", "ngClass"], ["label", "Emergency Phone", "labelPlacement", "floating", "type", "tel", "formControlName", "emergencyPhoneNumber", "oninput", "value = value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "ionInput", "value"], ["class", "themeone-ion-item", 4, "ngIf"], ["style", "background-color: #f1f1f1;", 4, "ngIf"], [2, "font-size", "12px", "color", "#5F5F5F", "padding-bottom", "10px", "margin-left", "12px", "margin-top", "19px", "font-weight", "bold"], [2, "padding-bottom", "5px", "margin-left", "12px"], [3, "ngClass"], ["formControlName", "titlesex", "mode", "md", 1, "tabs", 3, "value"], ["value", "Mr", 1, "segone"], ["value", "Ms", 1, "segtwo"], ["label", "Nationality", "label-placement", "floating", "color", "red", "interface", "popover eeee", "placeholder", "Select Country", "formControlName", "country", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], [3, "value", 4, "ngFor", "ngForOf"], ["label", "State", "label-placement", "floating", "id", "stateSelection", "color", "red", "interface", "popover eeee", "placeholder", "Select State", "formControlName", "state", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["label", "City", "label-placement", "floating", "id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", "label", "City", "label-placement", "floating", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["lines", "none", 1, "themeone-ion-item"], ["label", "Address", "labelPlacement", "floating", "formControlName", "address", 1, "themeone-input-text", 2, "border-bottom", "1px solid #ccc", 3, "value"], ["mode", "md", "expand", "block", "type", "submit", 3, "ngClass"], ["class", "whole center", 3, "click", 4, "ngIf"], ["src", "./assets/icon/themeone-profileimg.svg", "item-start", "", "alt", "Default Profile Image", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%"], ["item-start", "", "alt", "User Photo", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%", 3, "src"], ["item-start", "", "alt", "Profile Image", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%", 3, "src"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value"], ["label", "Email", "labelPlacement", "floating", "type", "email", "formControlName", "email", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["position", "floating", 1, "themeone-txt-lbl"], ["label", "Email", "labelPlacement", "floating", "type", "email", "formControlName", "email", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], [2, "background-color", "#f1f1f1"], ["position", "floating", 1, "themeone-txt-lbl", 2, "margin-left", "17px", "font-size", "10px"], [4, "ngFor", "ngForOf"], ["size", "6"], ["label", "ID Type", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], ["label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], [3, "value"], [1, "whole", "center", 3, "click"], [1, "themeone-legend-box", 3, "click"], [1, "themepersonal-text", 2, "font-weight", "bolder"], [2, "padding", "15px 0px"], ["label", "Mobile Number", "labelPlacement", "floating", "required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", 3, "ngModelChange", "ngModel"], ["size", "4"], ["size", "4", 1, "brws-txt", 2, "font-size", "14px", "color", "#333", "text-align", "right"], ["size", "4", 1, "dwn-txt", 2, "font-size", "14px", 3, "click", "ngStyle"], ["size", "9", 2, "padding", "0"], ["required", "", "type", "text", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "Enter OTP", 2, "border-bottom", "1px solid #bbbaba", "border-radius", "3px", 3, "ngModelChange", "ngModel"], ["size", "3", 2, "padding", "0", "text-align", "center"], ["id", "timer", "style", "    vertical-align: -webkit-baseline-middle;", 4, "ngIf"], ["size", "2", "class", "dwn-txt", "style", "    text-align: center;\n            font-size: 14px;", 3, "click", 4, "ngIf"], ["size", "5", 1, "dwn-txt", 2, "font-size", "14px", "color", "#191966", 3, "click"], ["id", "timer", 2, "vertical-align", "-webkit-baseline-middle"], ["size", "2", 1, "dwn-txt", 2, "text-align", "center", "font-size", "14px", 3, "click"], [1, "legend-box"], [1, "txt-msg-hd"], [1, "txt-msg1"], ["size", "4", 1, "brws-txt1", 3, "click"], ["size", "4", 3, "click", "ngClass"], [1, "ourbustheme"], ["mode", "md", 2, "padding", "8px"], ["size", "2", 2, "display", "flex"], [3, "click"], ["size", "7", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "editProfile"], [1, "ourbustheme", 2, "--background", "white"], [2, "padding", "16px 10px 8px 3px"], ["size", "0.3"], ["size", "2"], ["src", "./assets/icon/ourbus_profile.svg", "class", "icon-img", "style", "width: 50px;height: 50px;border-radius: 100px;", "item-start", "", 4, "ngIf"], ["class", "icon-img", "style", "width: 50px;height: 50px;border-radius: 100px;", "item-start", "", 3, "src", 4, "ngIf"], ["class", "icon-img", "style", "height: 50px;width: 50px; border-radius: 50%;", "item-start", "", "alt", "Profile Image", 3, "src", 4, "ngIf"], ["src", "./assets/icon/ourbus_edit_pencil.svg", "size", "large", 2, "height", "20px", "width", "20px", "position", "absolute", "bottom", "6px", "right", "-2px", 3, "click"], ["size", "8", 2, "margin-top", "auto", "margin-bottom", "auto"], [1, "textSet"], ["size", "12"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--inner-padding-end", "0", "--padding-start", "0px"], ["label", "First Name", "labelPlacement", "floating", "type", "text", "fill", "outline", "formControlName", "name", "maxlength", "25", "placeholder", "Enter first name", 1, "ourbus_inputText", "ourbus_labelSet", 3, "input", "value"], ["label", "Last Name", "labelPlacement", "floating", "type", "text", "fill", "outline", "formControlName", "lastName", "maxlength", "25", "placeholder", "Enter last name", 1, "ourbus_inputText", "ourbus_labelSet", 3, "input", "value"], ["lines", "none", "mode", "md", "style", "--inner-padding-end: 0; --padding-start: 0px;", 4, "ngIf"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input", "style", "--inner-padding-end: 0; --padding-start: 0px;", 4, "ngIf"], ["size", "6", 2, "padding", "0px"], ["lines", "none", "mode", "md", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["fill", "outline", "label", "DOB", "labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "ourbus_inputText", "ourbus_labelSet", 2, "margin-top", "8px", "--padding-end", "60px", 3, "value"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end", 2, "margin", "0px", "position", "absolute", "right", "30px", "top", "25px"], ["trigger", "open-date-input-3"], ["mode", "ios", "formControlName", "titlesex", 2, "height", "60px", 3, "value"], ["value", "Mr", 1, "ourbus_segment"], ["value", "Ms"], [2, "margin", "8px", "display", "flex", "align-items", "center"], ["size", "1", 2, "padding-top", "10px"], ["src", "././assets/icon/ourbusPhone.svg", "alt", "", 2, "margin", "0px"], ["size", "11"], ["size", "3.5"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input ourbus_item_outline", "style", "margin-top: 7px !important;margin-left: 10px;", 4, "ngFor", "ngForOf"], ["size", "8.5"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["fill", "outline", "label", "Phone Number", "labelPlacement", "floating", "placeholder", "Enter phone number", "type", "number", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 2, "--padding-end", "60px", 3, "value"], ["slot", "end", 1, "btnEdit", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin-top", "auto", "margin-bottom", "auto", "position", "absolute", "right", "30px", "top", "16px", 3, "click"], ["fill", "outline", "label", "Emergency Phone", "labelPlacement", "floating", "type", "tel", "maxlength", "10", "formControlName", "emergencyPhoneNumber", "placeholder", "Enter emergency phone", 1, "ourbus_inputText", "ourbus_labelSet", 2, "margin-left", "0px !important", 3, "ionChange", "value"], ["fill", "outline", "label", "Nationality", "mode", "md", "label-placement", "floating", "color", "red", "placeholder", "Select Country", "formControlName", "country", "interface", "popover", 1, "ourbus_ionselect_center", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText ourbus_labelSet", 3, "value", 4, "ngFor", "ngForOf"], ["fill", "outline", "label", "State", "mode", "md", "label-placement", "floating", "id", "stateSelection", "color", "red", "placeholder", "Select State", "formControlName", "state", "interface", "popover", 1, "ourbus_ionselect_center", "always-flip", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText ourbus_labelSet", "style", "--width: 90%;--max-width:90%;", 3, "value", 4, "ngFor", "ngForOf"], ["fill", "outline", "label", "City", "mode", "md", "label-placement", "floating", "id", "citySelection", "color", "red", "interface", "popover", "placeholder", "Select City", "formControlName", "city", 1, "ourbus_ionselect_center", "always-flip", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["fill", "outline", "label", "Address", "labelPlacement", "floating", "formControlName", "address", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn1"], ["class", "whole center ourbustheme", 3, "click", 4, "ngIf"], ["src", "./assets/icon/ourbus_profile.svg", "item-start", "", 1, "icon-img", 2, "width", "50px", "height", "50px", "border-radius", "100px"], ["item-start", "", 1, "icon-img", 2, "width", "50px", "height", "50px", "border-radius", "100px", 3, "src"], ["item-start", "", "alt", "Profile Image", 1, "icon-img", 2, "height", "50px", "width", "50px", "border-radius", "50%", 3, "src"], ["lines", "none", "mode", "md", 2, "--inner-padding-end", "0", "--padding-start", "0px"], ["fill", "outline", "label", "Email", "labelPlacement", "floating", "type", "email", "maxlength", "50", "placeholder", "Enter email id", "formControlName", "email", "readonly", "", 1, "ourbus_inputText_disable", "ourbus_labelSet", 3, "value"], ["fill", "outline", "label", "Email", "labelPlacement", "floating", "type", "email", "placeholder", "Enter email id", "maxlength", "50", "formControlName", "email", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["position", "floating", 1, "txt-lbl", 2, "margin-left", "17px", "font-size", "10px"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--inner-padding-end", "0", "--padding-start", "9px"], ["label", "ID Type", "labelPlacement", "floating", "fill", "outline", "type", "text", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["fill", "outline", "label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["mode", "md", "color", "success", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value", "max"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline", 2, "margin-top", "7px !important", "margin-left", "10px"], [2, "margin", "-34px 0px 0px 0px", "font-size", "20px"], [1, "ourbus_inputText", 2, "height", "58px", "margin-left", "8px", 3, "readonly"], ["labelPlacement", "floating", 1, "ourbus_inputText", "ourbus_labelSet", 2, "height", "58px", "margin-left", "8px", 3, "readonly", "label"], [1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], [1, "ourbus_inputText", "ourbus_labelSet", 2, "--width", "90%", "--max-width", "90%", 3, "value"], ["size", "4.5"], ["mode", "md", "class", "ourbus_custom_input ourbus_item_outline", 4, "ngFor", "ngForOf"], ["size", "7.5"], ["mode", "md", 1, "ourbus_custom_input"], ["position", "floating", 1, "ourbus_labelSet"], ["fill", "outline", "required", "", "type", "text", "size", "10", "maxlength", "10", "type", "tel", "label", "Mobile Number", "labelPlacement", "floating", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", 1, "ourbus_inputText", "ourbus_labelSet", 3, "ionChange", "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "font-size", "14px", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline"], ["size", "8", 2, "padding", "0"], ["fill", "outline", "required", "", "type", "tel", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "OTP", 1, "ourbus_inputText", 3, "ngModelChange", "ionChange", "ngModel"], ["size", "4", 2, "padding", "0", "display", "flex", "justify-content", "center", "align-items", "center"], ["id", "timer", "style", " vertical-align: -webkit-baseline-middle;", 4, "ngIf"], ["size", "2", "class", "dwn-txt resend_OTP", 3, "click", 4, "ngIf"], ["size", "5", 1, "dwn-txt", 2, "font-size", "14px", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["size", "2", 1, "dwn-txt", "resend_OTP", 3, "click"], [1, "whole", "center", "ourbustheme", 3, "click"], ["size", "4", 1, "dwn-txt", 3, "click"], ["mode", "md", 1, "h50"], ["slot", "start", 3, "click"], [1, "head", 2, "opacity", "0.7"], ["class", "whole center", 4, "ngIf"], [1, "bg-content"], [2, "padding", "0"], ["formControlName", "titlesex", 3, "value", 4, "ngIf"], ["tappable", "", "id", "open-date-input-6", 4, "ngIf"], ["tappable", "", 4, "ngIf"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn"], [1, "whole", "center"], [1, "personal-text", "subTitle", 2, "font-weight", "bolder"], ["required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", "label", "Mobile Number", "labelPlacement", "floating", 1, "otpNumber", 2, "height", "26px", "min-height", "44px", "font-size", "10px", "border", "none", "border-bottom", "1px solid #bbbaba", 3, "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "letter-spacing", "normal", "font-family", "'Roboto', sans-serif", "color", "var(--iconsAndButtonsColor)", "text-transform", "uppercase", "text-align", "right", 3, "click"], [2, "color", "red"], ["size", "9"], ["required", "", "type", "text", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "Enter OTP", 1, "otpNumber", 3, "ngModelChange", "ngModel"], ["id", "timer", 4, "ngIf"], ["size", "2", "class", "dwn-txt", "style", "text-align: center; font-size: 9px;", 3, "click", 4, "ngIf"], ["size", "4", 1, "brws-txt", 3, "click"], ["size", "5", 1, "dwn-txt", 2, "text-align", "left", 3, "click"], ["id", "timer"], ["size", "2", 1, "dwn-txt", 2, "text-align", "center", "font-size", "9px", 3, "click"], ["formControlName", "titlesex", 3, "value"], ["size", "12", 2, "border-bottom", "1px solid lightgrey"], ["size", "3.2"], ["lines", "none", 1, "radio-gender-default", 2, "--padding-start", "14px"], [2, "--padding-start", "0px"], ["class", "mandatory_star", 4, "ngIf"], ["size", "3", 2, "padding-right", "10px"], ["lines", "none", 1, "radio-gender-default", 2, "--padding-start", "0px"], ["mode", "md", "item-left", "", "value", "Mr", 2, "--color-checked", "var(--iconsAndButtonsColor)", "--color", "var(--iconsAndButtonsColor)", "flex", "0"], [2, "padding-left", "10px"], ["mode", "md", "item-left", "", "value", "Ms", 2, "--color-checked", "var(--iconsAndButtonsColor)", "--color", "var(--iconsAndButtonsColor)", "flex", "0"], [1, "mandatory_star"], ["labelPlacement", "floating", "type", "text", "formControlName", "name", 1, "input-text", "txt-lbl", 3, "value"], ["slot", "label"], ["labelPlacement", "floating", "type", "text", "formControlName", "lastName", 1, "input-text", "txt-lbl", 3, "value"], ["tappable", "", "id", "open-date-input-6"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end", 2, "margin", "0px"], ["labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "txt-lbl", 2, "font-size", "12px", 3, "value"], ["tappable", ""], ["size", "10", 2, "padding-left", "0px"], ["labelPlacement", "floating", "type", "number", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], ["size", "2", 2, "position", "absolute", "right", "10px"], [1, "btnEdit", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin", "0px", "position", "relative", "bottom", "-5px", "height", "30px", 3, "click"], ["labelPlacement", "floating", "type", "number", "formControlName", "emergencyPhoneNumber", 1, "input-text", "txt-lbl", 3, "ionChange", "value"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", 1, "input-text", "txt-lbl", 3, "value"], [2, "font-size", "11px", "margin-left", "24px", "color", "red"], ["id", "citySelection", "color", "red", "interface", "popover", "placeholder", "Select Card", "formControlName", "id_card_type", 1, "input-text", "select-card", 3, "ionChange", "value", "interfaceOptions"], ["slot", "label", 2, "margin-top", "0px"], ["style", "margin-top: 19px;", 3, "value", 4, "ngFor", "ngForOf"], ["label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], [2, "margin-top", "19px", 3, "value"], [1, "txt-lbl", 2, "font-size", "12px"], ["color", "red", "interface", "popover eeee", "placeholder", "Select Country", "formControlName", "country", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel", "interfaceOptions"], ["id", "stateSelection", "color", "red", "interface", "popover eeee", "placeholder", "Select State", "formControlName", "state", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "interfaceOptions", "ngModel"], ["id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel", "interfaceOptions"], ["position", "floating", 1, "txt-lbl"], ["formControlName", "address", 1, "input-text", 3, "value"], ["mode", "md", 1, "ion-no-border"], ["mode", "md"], ["size", "7", 1, "seabird_heading"], [1, "seabird_content"], [1, "seabird_margin"], [1, "seabird_row_center"], ["size", "12", 2, "padding-top", "0px"], [2, "font-weight", "bold", "color", "#000"], [1, "seabird_row_border"], ["size", "4.5", 1, "seabird_col"], [1, "seabird_labelSet"], ["size", "7.5", 1, "seabird_col"], ["type", "text", "formControlName", "name", 1, "ourbus_inputText", 3, "value"], ["type", "text", "formControlName", "lastName", 1, "ourbus_inputText", 3, "value"], ["class", "seabird_row_border", 4, "ngIf"], ["type", "number", "readonly", "", 1, "ourbus_inputText", 3, "value"], ["type", "number", "formControlName", "emergencyPhoneNumber", 1, "ourbus_inputText", 3, "ionInput", "value"], ["tappable", "", "id", "open-date-input-6", 1, "seabird_row_border"], ["type", "text", "formControlName", "dateofbirth", 1, "ourbus_inputText", 3, "value"], ["size", "3.5", 1, "seabird_col"], [1, "seabird_span_date"], [1, "seabird_lbl_date"], ["name", "calendar-outline"], ["mode", "md", "formControlName", "titlesex", 3, "value"], [1, "seabird_list"], ["lines", "none"], [2, "font-size", "12px"], ["slot", "start", "value", "Mr", 1, "seabird_Radio_color"], ["slot", "start", "value", "Ms", 1, "seabird_Radio_color"], ["color", "red", "placeholder", "Select Country", "formControlName", "country", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText", 3, "value", 4, "ngFor", "ngForOf"], ["id", "stateSelection", "color", "red", "placeholder", "Select State", "formControlName", "state", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], [2, "font-size", "14px"], ["formControlName", "address", 1, "ourbus_inputText", 2, "--padding-start", "0px", 3, "value"], ["mode", "md", "shape", "round", "expand", "block", "type", "submit", 1, "login-btn1", 2, "height", "45px", "margin", "7px"], ["type", "email", "formControlName", "email", "readonly", "", 1, "ourbus_inputText_disable", 3, "value"], ["type", "email", "formControlName", "email", 1, "ourbus_inputText", 3, "value"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value", "max"], [1, "ourbus_inputText", 3, "value"], ["required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", "placeholder", "Mobile Number", 1, "otpNumber", 2, "border", "1px solid #bbbaba", "border-radius", "3px", "width", "86%", "margin", "5px", "height", "26px", "font-size", "10px", 3, "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "text-align", "left", 3, "click"], [1, "syamolitheme", 2, "box-shadow", "none"], ["slot", "start", 2, "position", "absolute", 3, "click"], ["defaultHref", "/tabs/more"], [1, "syamoli-title-center"], ["fullscreen", "true", "scroll-y", "true", 1, "syamolitheme"], [1, "scroll-container", 2, "margin", "0 auto", "font-family", "'Gilroy-Medium',sans-serif", "margin", "10px 16px"], [3, "ngSubmit", "formGroup"], ["type", "file", "id", "syamoliFileInput", "hidden", "", "accept", "image/*", 3, "change"], [1, "syamoli-profile-block", 2, "text-align", "center", "margin-top", "20px"], [1, "syamoli-avatar-wrapper", 2, "display", "flex", "justify-content", "center", 3, "click"], ["src", "./assets/icon/shyamoli-name.svg", "alt", "Add Photo", "class", "syamoli-avatar-placeholder", "style", "width:80px; height:80px; border-radius:50%; border:1px solid #ddd;", 4, "ngIf"], ["alt", "Profile Photo", "class", "syamoli-avatar", "style", "width:80px; height:80px; border-radius:50%;", 3, "src", 4, "ngIf"], ["class", "syamoli-add-photo-text", "style", "margin-top:6px; font-size:13px; color:#777;", 4, "ngIf"], [1, "syamoli-profile-name", 2, "display", "block", "font-weight", "600", "font-size", "16px", "margin-top", "6px", "color", "#222"], [1, "syamoli-profile-mobile", 2, "display", "block", "font-size", "14px", "color", "#666"], [2, "border", "none", "border-top", "1px solid #EAEAEA", "margin", "16px 0"], [1, "syamoli-section-title", 2, "font-weight", "600", "margin-bottom", "10px", "text-align", "left", "font-family", "'Gilroy-Bold','Gilroy-Medium',sans-serif", "letter-spacing", "0.5px"], [1, "syamoli-label", 2, "font-weight", "400", "margin-bottom", "4px", "display", "block", "text-align", "left", "font-family", "'Gilroy-Medium', sans-serif"], ["lines", "none", 1, "syamoli-input"], ["type", "text", "formControlName", "name", "autocomplete", "off"], [1, "syamoli-label", 2, "font-weight", "400", "margin-bottom", "4px", "display", "block", "text-align", "left"], ["lines", "none", "tappable", "", "id", "open-date-input-6", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/calendar-shyamoli.svg", 2, "margin-top", "2px", "margin-right", "8px"], ["type", "text", "formControlName", "dateofbirth", "autocomplete", "off"], ["size", "10", "maxlength", "10", "type", "tel", "formControlName", "phoneNumber", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", 3, "ionChange", "ngModelChange", "ngModel"], ["slot", "start", "src", "./assets/icon/emergency-shyamoli.svg", 2, "margin-top", "2px", "margin-right", "8px", 3, "click"], ["size", "10", "maxlength", "10", "type", "tel", "formControlName", "emergencyPhoneNumber", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "autocomplete", "off", 3, "ionChange"], ["type", "email", "formControlName", "email", "autocomplete", "off", "readonly", ""], [2, "margin-top", "14px"], [1, "syamoli-label", 2, "font-weight", "400", "display", "block", "text-align", "left", "margin-bottom", "6px", "font-family", "'Gilroy-Medium',sans-serif"], ["formControlName", "titlesex"], [2, "display", "flex", "flex-direction", "row", "gap", "24px"], [2, "display", "flex", "align-items", "center", "cursor", "pointer"], ["mode", "md", "value", "Mr", 2, "--color-checked", "#FF8C00", "margin-right", "6px"], [2, "font-family", "'Gilroy-Medium',sans-serif"], ["mode", "md", "value", "Ms", 2, "--color-checked", "#FF8C00", "margin-right", "6px"], [2, "font-weight", "600", "margin", "18px 0 2px", "text-align", "left", "font-family", "'Gilroy-Bold'"], [1, "syamoli-label", 2, "font-weight", "400", "margin-top", "6px", "margin-bottom", "4px", "display", "block", "text-align", "left", "font-family", "'Gilroy-Medium',sans-serif"], ["lines", "none", 1, "syamoli-input", 2, "width", "100%"], ["mode", "md", "formControlName", "country", "interface", "popover", 2, "flex", "1", "width", "100%", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["slot", "end", "src", "./assets/icon/dropdown1.svg", 3, "click"], ["mode", "md", "formControlName", "state", "interface", "popover", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["mode", "md", "formControlName", "city", "interface", "popover", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["lines", "none", 1, "syamoli-input-address", 2, "--padding-start", "0px"], ["formControlName", "address", "autocomplete", "off", "placeholder", "Enter your address", 1, "syamoli-address-textarea", 2, "text-align", "left"], [2, "margin-top", "24px"], ["mode", "md", "expand", "block", 1, "syamoli-btn-primary", 3, "click"], ["src", "./assets/icon/shyamoli-name.svg", "alt", "Add Photo", 1, "syamoli-avatar-placeholder", 2, "width", "80px", "height", "80px", "border-radius", "50%", "border", "1px solid #ddd"], ["alt", "Profile Photo", 1, "syamoli-avatar", 2, "width", "80px", "height", "80px", "border-radius", "50%", 3, "src"], [1, "syamoli-add-photo-text", 2, "margin-top", "6px", "font-size", "13px", "color", "#777"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value"]],
+  consts: [["popoverDatetime", ""], ["emergencyInput", ""], ["countrySelect", ""], ["stateSelect", ""], ["citySelect", ""], [4, "ngIf"], ["mode", "ios", 1, "ion-no-border", "theme1"], ["mode", "ios", "mode", "md", 2, "--border-width", "0px", 3, "ngClass"], [1, "themeone-head", 2, "margin-right", "40px"], ["slot", "start"], [2, "color", "#333333"], ["fullscreen", "true", 1, "themeone-bg-content", "theme1", 2, "--offset-top", "1px !important", "z-index", "inherit"], [1, "center-div"], [1, "profileForm", 3, "ngSubmit", "formGroup"], [2, "width", "-webkit-fill-available", "display", "flex", "justify-content", "center", "align-items", "center"], ["lines", "none", 1, "themeone-ion-item", 2, "--padding-start", "8px"], [1, "photoButton", 2, "text-align", "center", "height", "124px", "width", "124px"], ["src", "./assets/icon/themeone-profileimg.svg", "class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "Default Profile Image", 4, "ngIf"], ["class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "User Photo", 3, "src", 4, "ngIf"], ["class", "icon-img", "style", "height: 124px;width: 124px; border-radius: 50%;", "item-start", "", "alt", "Profile Image", 3, "src", 4, "ngIf"], [1, "upload-icon", 2, "background-color", "var(--homaPageHeadingTextColor)"], ["src", "./assets/icon/ourbus_edit_pencil.svg", "size", "large", 2, "height", "20px", "margin-top", "4px", "filter", "invert(1) brightness(2)", 3, "click"], [1, "profile-container"], ["type", "file", "accept", "image/*", "id", "fileInput", "hidden", "", 3, "change"], [2, "width", "-webkit-fill-available", "display", "grid", "justify-content", "center", "text-align", "center"], [1, "themeone_namelbl", 2, "padding", "5px 0px 8px 0px"], [1, "themeone_mobilelbl"], [1, "themeone-ion-item"], ["label", "Name", "labelPlacement", "floating", "type", "text", "formControlName", "name", 1, "themeone-input-text", "themeone-txt-lbl", "input-txt", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["label", "Last Name", "labelPlacement", "floating", "type", "text", "formControlName", "lastName", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["tappable", "", "id", "open-date-input-6", 1, "themeone-ion-item"], ["src", "././assets/icon/calendar-2-line.svg", "alt", "", "slot", "end", 2, "align-self", "end", "margin-bottom", "10px"], ["label", "Date of birth", "labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "themeone-txt-lbl", "txt-lbl", 2, "font-size", "15px", "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["trigger", "open-date-input-6"], ["tappable", "", "lines", "none", 1, "themeone-ion-item"], [2, "width", "100%"], ["size", "9", 2, "padding-left", "0px", "border-bottom", "1px solid #ccc"], ["label", "Phone Number", "labelPlacement", "floating", "type", "tel", "readonly", "", 1, "themeone-txt-lbl", "themeone-input-text", 2, "--padding-top", "8px", "--padding-bottom", "8px", 3, "value"], ["size", "3"], ["expand", "block", 1, "themeone-btnEdit", 3, "click", "ngClass"], ["label", "Emergency Phone", "labelPlacement", "floating", "type", "tel", "formControlName", "emergencyPhoneNumber", "oninput", "value = value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "ionInput", "value"], ["class", "themeone-ion-item", 4, "ngIf"], ["style", "background-color: #f1f1f1;", 4, "ngIf"], [2, "font-size", "12px", "color", "#5F5F5F", "padding-bottom", "10px", "margin-left", "12px", "margin-top", "19px", "font-weight", "bold"], [2, "padding-bottom", "5px", "margin-left", "12px"], [3, "ngClass"], ["formControlName", "titlesex", "mode", "md", 1, "tabs", 3, "value"], ["value", "Mr", 1, "segone"], ["value", "Ms", 1, "segtwo"], ["label", "Nationality", "label-placement", "floating", "color", "red", "interface", "popover eeee", "placeholder", "Select Country", "formControlName", "country", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], [3, "value", 4, "ngFor", "ngForOf"], ["label", "State", "label-placement", "floating", "id", "stateSelection", "color", "red", "interface", "popover eeee", "placeholder", "Select State", "formControlName", "state", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["label", "City", "label-placement", "floating", "id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", "label", "City", "label-placement", "floating", 1, "themeone-input-text", "themeone-inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["lines", "none", 1, "themeone-ion-item"], ["label", "Address", "labelPlacement", "floating", "formControlName", "address", 1, "themeone-input-text", 2, "border-bottom", "1px solid #ccc", 3, "value"], ["mode", "md", "expand", "block", "type", "submit", 3, "ngClass"], ["class", "whole center", 3, "click", 4, "ngIf"], ["src", "./assets/icon/themeone-profileimg.svg", "item-start", "", "alt", "Default Profile Image", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%"], ["item-start", "", "alt", "User Photo", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%", 3, "src"], ["item-start", "", "alt", "Profile Image", 1, "icon-img", 2, "height", "124px", "width", "124px", "border-radius", "50%", 3, "src"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value"], ["label", "Email", "labelPlacement", "floating", "type", "email", "formControlName", "email", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 2, "margin-bottom", "4px", "min-height", "50px", 3, "value"], ["position", "floating", 1, "themeone-txt-lbl"], ["label", "Email", "labelPlacement", "floating", "type", "email", "formControlName", "email", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], [2, "background-color", "#f1f1f1"], ["position", "floating", 1, "themeone-txt-lbl", 2, "margin-left", "17px", "font-size", "10px"], [4, "ngFor", "ngForOf"], ["size", "6"], ["label", "ID Type", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], ["label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "themeone-input-text", "themeone-txt-lbl", 3, "value"], [3, "value"], [1, "whole", "center", 3, "click"], [1, "themeone-legend-box", 3, "click"], [1, "themepersonal-text", 2, "font-weight", "bolder"], [2, "padding", "15px 0px"], ["label", "Mobile Number", "labelPlacement", "floating", "required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", 3, "ngModelChange", "ngModel"], ["size", "4"], ["size", "4", 1, "brws-txt", 2, "font-size", "14px", "color", "#333", "text-align", "right"], ["size", "4", 1, "dwn-txt", 2, "font-size", "14px", 3, "click", "ngStyle"], ["size", "9", 2, "padding", "0"], ["required", "", "type", "text", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "Enter OTP", 2, "border-bottom", "1px solid #bbbaba", "border-radius", "3px", 3, "ngModelChange", "ngModel"], ["size", "3", 2, "padding", "0", "text-align", "center"], ["id", "timer", "style", "    vertical-align: -webkit-baseline-middle;", 4, "ngIf"], ["size", "2", "class", "dwn-txt", "style", "    text-align: center;\n            font-size: 14px;", 3, "click", 4, "ngIf"], ["size", "5", 1, "dwn-txt", 2, "font-size", "14px", "color", "#191966", 3, "click"], ["id", "timer", 2, "vertical-align", "-webkit-baseline-middle"], ["size", "2", 1, "dwn-txt", 2, "text-align", "center", "font-size", "14px", 3, "click"], [1, "legend-box"], [1, "txt-msg-hd"], [1, "txt-msg1"], ["size", "4", 1, "brws-txt1", 3, "click"], ["size", "4", 3, "click", "ngClass"], [1, "ourbustheme"], ["mode", "md", 2, "padding", "8px"], ["size", "2", 2, "display", "flex"], [3, "click"], ["size", "7", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "editProfile"], [1, "ourbustheme", 2, "--background", "white"], [2, "padding", "16px 10px 8px 3px"], ["size", "0.3"], ["size", "2"], ["src", "./assets/icon/ourbus_profile.svg", "class", "icon-img", "style", "width: 50px;height: 50px;border-radius: 100px;", "item-start", "", 4, "ngIf"], ["class", "icon-img", "style", "width: 50px;height: 50px;border-radius: 100px;", "item-start", "", 3, "src", 4, "ngIf"], ["class", "icon-img", "style", "height: 50px;width: 50px; border-radius: 50%;", "item-start", "", "alt", "Profile Image", 3, "src", 4, "ngIf"], ["src", "./assets/icon/ourbus_edit_pencil.svg", "size", "large", 2, "height", "20px", "width", "20px", "position", "absolute", "bottom", "6px", "right", "-2px", 3, "click"], ["size", "8", 2, "margin-top", "auto", "margin-bottom", "auto"], [1, "textSet"], ["size", "12"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--inner-padding-end", "0", "--padding-start", "0px"], ["label", "First Name", "labelPlacement", "floating", "type", "text", "fill", "outline", "formControlName", "name", "maxlength", "25", "placeholder", "Enter first name", 1, "ourbus_inputText", "ourbus_labelSet", 3, "input", "value"], ["label", "Last Name", "labelPlacement", "floating", "type", "text", "fill", "outline", "formControlName", "lastName", "maxlength", "25", "placeholder", "Enter last name", 1, "ourbus_inputText", "ourbus_labelSet", 3, "input", "value"], ["lines", "none", "mode", "md", "style", "--inner-padding-end: 0; --padding-start: 0px;", 4, "ngIf"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input", "style", "--inner-padding-end: 0; --padding-start: 0px;", 4, "ngIf"], ["size", "6", 2, "padding", "0px"], ["lines", "none", "mode", "md", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["fill", "outline", "label", "DOB", "labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "ourbus_inputText", "ourbus_labelSet", 2, "margin-top", "8px", "--padding-end", "60px", 3, "value"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end", 2, "margin", "0px", "position", "absolute", "right", "30px", "top", "25px"], ["trigger", "open-date-input-3"], ["mode", "ios", "formControlName", "titlesex", 2, "height", "60px", 3, "value"], ["value", "Mr", 1, "ourbus_segment"], ["value", "Ms"], [2, "margin", "8px", "display", "flex", "align-items", "center"], ["size", "1", 2, "padding-top", "10px"], ["src", "././assets/icon/ourbusPhone.svg", "alt", "", 2, "margin", "0px"], ["size", "11"], ["size", "3.5"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input ourbus_item_outline", "style", "margin-top: 7px !important;margin-left: 10px;", 4, "ngFor", "ngForOf"], ["size", "8.5"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["fill", "outline", "label", "Phone Number", "labelPlacement", "floating", "placeholder", "Enter phone number", "type", "number", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 2, "--padding-end", "60px", 3, "value"], ["slot", "end", 1, "btnEdit", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin-top", "auto", "margin-bottom", "auto", "position", "absolute", "right", "30px", "top", "16px", 3, "click"], ["fill", "outline", "label", "Emergency Phone", "labelPlacement", "floating", "type", "tel", "maxlength", "10", "formControlName", "emergencyPhoneNumber", "placeholder", "Enter emergency phone", 1, "ourbus_inputText", "ourbus_labelSet", 2, "margin-left", "0px !important", 3, "ionChange", "value"], ["fill", "outline", "label", "Nationality", "mode", "md", "label-placement", "floating", "color", "red", "placeholder", "Select Country", "formControlName", "country", "interface", "popover", 1, "ourbus_ionselect_center", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText ourbus_labelSet", 3, "value", 4, "ngFor", "ngForOf"], ["fill", "outline", "label", "State", "mode", "md", "label-placement", "floating", "id", "stateSelection", "color", "red", "placeholder", "Select State", "formControlName", "state", "interface", "popover", 1, "ourbus_ionselect_center", "always-flip", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText ourbus_labelSet", "style", "--width: 90%;--max-width:90%;", 3, "value", 4, "ngFor", "ngForOf"], ["fill", "outline", "label", "City", "mode", "md", "label-placement", "floating", "id", "citySelection", "color", "red", "interface", "popover", "placeholder", "Select City", "formControlName", "city", 1, "ourbus_ionselect_center", "always-flip", "ourbus_custom_input", "ourbus_inputText", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["fill", "outline", "label", "Address", "labelPlacement", "floating", "formControlName", "address", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn1"], ["class", "whole center ourbustheme", 3, "click", 4, "ngIf"], ["src", "./assets/icon/ourbus_profile.svg", "item-start", "", 1, "icon-img", 2, "width", "50px", "height", "50px", "border-radius", "100px"], ["item-start", "", 1, "icon-img", 2, "width", "50px", "height", "50px", "border-radius", "100px", 3, "src"], ["item-start", "", "alt", "Profile Image", 1, "icon-img", 2, "height", "50px", "width", "50px", "border-radius", "50%", 3, "src"], ["lines", "none", "mode", "md", 2, "--inner-padding-end", "0", "--padding-start", "0px"], ["fill", "outline", "label", "Email", "labelPlacement", "floating", "type", "email", "maxlength", "50", "placeholder", "Enter email id", "formControlName", "email", "readonly", "", 1, "ourbus_inputText_disable", "ourbus_labelSet", 3, "value"], ["fill", "outline", "label", "Email", "labelPlacement", "floating", "type", "email", "placeholder", "Enter email id", "maxlength", "50", "formControlName", "email", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["position", "floating", 1, "txt-lbl", 2, "margin-left", "17px", "font-size", "10px"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--inner-padding-end", "0", "--padding-start", "9px"], ["label", "ID Type", "labelPlacement", "floating", "fill", "outline", "type", "text", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["fill", "outline", "label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["mode", "md", "color", "success", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value", "max"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline", 2, "margin-top", "7px !important", "margin-left", "10px"], [2, "margin", "-34px 0px 0px 0px", "font-size", "20px"], [1, "ourbus_inputText", 2, "height", "58px", "margin-left", "8px", 3, "readonly"], ["labelPlacement", "floating", 1, "ourbus_inputText", "ourbus_labelSet", 2, "height", "58px", "margin-left", "8px", 3, "readonly", "label"], [1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], [1, "ourbus_inputText", "ourbus_labelSet", 2, "--width", "90%", "--max-width", "90%", 3, "value"], ["size", "4.5"], ["mode", "md", "class", "ourbus_custom_input ourbus_item_outline", 4, "ngFor", "ngForOf"], ["size", "7.5"], ["mode", "md", 1, "ourbus_custom_input"], ["position", "floating", 1, "ourbus_labelSet"], ["fill", "outline", "required", "", "type", "text", "size", "10", "maxlength", "10", "type", "tel", "label", "Mobile Number", "labelPlacement", "floating", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", 1, "ourbus_inputText", "ourbus_labelSet", 3, "ionChange", "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "font-size", "14px", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline"], ["size", "8", 2, "padding", "0"], ["fill", "outline", "required", "", "type", "tel", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "OTP", 1, "ourbus_inputText", 3, "ngModelChange", "ionChange", "ngModel"], ["size", "4", 2, "padding", "0", "display", "flex", "justify-content", "center", "align-items", "center"], ["id", "timer", "style", " vertical-align: -webkit-baseline-middle;", 4, "ngIf"], ["size", "2", "class", "dwn-txt resend_OTP", 3, "click", 4, "ngIf"], ["size", "5", 1, "dwn-txt", 2, "font-size", "14px", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["size", "2", 1, "dwn-txt", "resend_OTP", 3, "click"], [1, "whole", "center", "ourbustheme", 3, "click"], ["size", "4", 1, "dwn-txt", 3, "click"], ["mode", "md", 1, "h50"], ["slot", "start", 3, "click"], [1, "head", 2, "opacity", "0.7"], ["class", "whole center", 4, "ngIf"], [1, "bg-content"], ["mode", "md"], [2, "padding", "0"], ["formControlName", "titlesex", 3, "value", 4, "ngIf"], ["tappable", "", "id", "open-date-input-6", 4, "ngIf"], ["tappable", "", 4, "ngIf"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn"], [1, "whole", "center"], [1, "personal-text", "subTitle", 2, "font-weight", "bolder"], ["required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", "label", "Mobile Number", "labelPlacement", "floating", 1, "otpNumber", 2, "height", "26px", "min-height", "44px", "font-size", "10px", "border", "none", "border-bottom", "1px solid #bbbaba", 3, "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "letter-spacing", "normal", "font-family", "'Roboto', sans-serif", "color", "var(--iconsAndButtonsColor)", "text-transform", "uppercase", "text-align", "right", 3, "click"], [2, "color", "red"], ["size", "9"], ["required", "", "type", "text", "size", "6", "maxlength", "6", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "placeholder", "Enter OTP", 1, "otpNumber", 3, "ngModelChange", "ngModel"], ["id", "timer", 4, "ngIf"], ["size", "2", "class", "dwn-txt", "style", "text-align: center; font-size: 9px;", 3, "click", 4, "ngIf"], ["size", "4", 1, "brws-txt", 3, "click"], ["size", "5", 1, "dwn-txt", 2, "text-align", "left", 3, "click"], ["id", "timer"], ["size", "2", 1, "dwn-txt", 2, "text-align", "center", "font-size", "9px", 3, "click"], ["formControlName", "titlesex", 3, "value"], ["size", "12", 2, "border-bottom", "1px solid lightgrey"], ["size", "3.2"], ["lines", "none", 1, "radio-gender-default", 2, "--padding-start", "14px"], [2, "--padding-start", "0px"], ["class", "mandatory_star", 4, "ngIf"], ["size", "3", 2, "padding-right", "10px"], ["lines", "none", 1, "radio-gender-default", 2, "--padding-start", "0px"], ["mode", "md", "item-left", "", "value", "Mr", 2, "--color-checked", "var(--iconsAndButtonsColor)", "--color", "var(--iconsAndButtonsColor)", "flex", "0"], [2, "padding-left", "10px"], ["mode", "md", "item-left", "", "value", "Ms", 2, "--color-checked", "var(--iconsAndButtonsColor)", "--color", "var(--iconsAndButtonsColor)", "flex", "0"], [1, "mandatory_star"], ["labelPlacement", "floating", "type", "text", "formControlName", "name", 1, "input-text", "txt-lbl", 3, "value"], ["slot", "label"], ["labelPlacement", "floating", "type", "text", "formControlName", "lastName", 1, "input-text", "txt-lbl", 3, "value"], ["tappable", "", "id", "open-date-input-6"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end", 2, "margin", "0px"], ["labelPlacement", "floating", "type", "text", "formControlName", "dateofbirth", 1, "txt-lbl", 2, "font-size", "12px", 3, "value"], ["tappable", ""], ["size", "10", 2, "padding-left", "0px"], ["labelPlacement", "floating", "type", "number", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], ["size", "2", 2, "position", "absolute", "right", "10px"], [1, "btnEdit", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin", "0px", "position", "relative", "bottom", "-5px", "height", "30px", 3, "click"], ["labelPlacement", "floating", "type", "number", "formControlName", "emergencyPhoneNumber", 1, "input-text", "txt-lbl", 3, "ionChange", "value"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", 1, "input-text", "txt-lbl", 3, "value"], [2, "font-size", "11px", "margin-left", "24px", "color", "red"], ["mode", "md", "id", "citySelection", "color", "red", "interface", "popover", "placeholder", "Select Card", "formControlName", "id_card_type", 1, "input-text", "select-card", 3, "ionChange", "value", "interfaceOptions"], ["slot", "label", 2, "margin-top", "0px"], ["style", "margin-top: 19px;", 3, "value", 4, "ngFor", "ngForOf"], ["label", "ID No.", "labelPlacement", "floating", "type", "text", "readonly", "", 1, "input-text", "txt-lbl", 3, "value"], [2, "margin-top", "19px", 3, "value"], [1, "txt-lbl", 2, "font-size", "12px"], ["color", "red", "interface", "popover eeee", "placeholder", "Select Country", "formControlName", "country", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel", "interfaceOptions"], ["id", "stateSelection", "color", "red", "interface", "popover eeee", "placeholder", "Select State", "formControlName", "state", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "interfaceOptions", "ngModel"], ["id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", 1, "input-text", "inputselect", 3, "ngModelChange", "ionChange", "value", "ngModel", "interfaceOptions"], ["position", "floating", 1, "txt-lbl"], ["formControlName", "address", 1, "input-text", 3, "value"], ["mode", "md", 1, "ion-no-border"], ["size", "7", 1, "seabird_heading"], [1, "seabird_content"], [1, "seabird_margin"], [1, "seabird_row_center"], ["size", "12", 2, "padding-top", "0px"], [2, "font-weight", "bold", "color", "#000"], [1, "seabird_row_border"], ["size", "4.5", 1, "seabird_col"], [1, "seabird_labelSet"], ["size", "7.5", 1, "seabird_col"], ["type", "text", "formControlName", "name", 1, "ourbus_inputText", 3, "value"], ["type", "text", "formControlName", "lastName", 1, "ourbus_inputText", 3, "value"], ["class", "seabird_row_border", 4, "ngIf"], ["type", "number", "readonly", "", 1, "ourbus_inputText", 3, "value"], ["type", "number", "formControlName", "emergencyPhoneNumber", 1, "ourbus_inputText", 3, "ionInput", "value"], ["tappable", "", "id", "open-date-input-6", 1, "seabird_row_border"], ["type", "text", "formControlName", "dateofbirth", 1, "ourbus_inputText", 3, "value"], ["size", "3.5", 1, "seabird_col"], [1, "seabird_span_date"], [1, "seabird_lbl_date"], ["name", "calendar-outline"], ["mode", "md", "formControlName", "titlesex", 3, "value"], [1, "seabird_list"], ["lines", "none"], [2, "font-size", "12px"], ["slot", "start", "value", "Mr", 1, "seabird_Radio_color"], ["slot", "start", "value", "Ms", 1, "seabird_Radio_color"], ["color", "red", "placeholder", "Select Country", "formControlName", "country", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["class", "ourbus_inputText", 3, "value", 4, "ngFor", "ngForOf"], ["id", "stateSelection", "color", "red", "placeholder", "Select State", "formControlName", "state", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], ["id", "citySelection", "color", "red", "interface", "popover eeee", "placeholder", "Select City", "formControlName", "city", 1, "seabird_input_text", 2, "--padding-start", "0px", 3, "ngModelChange", "ionChange", "value", "ngModel"], [2, "font-size", "14px"], ["formControlName", "address", 1, "ourbus_inputText", 2, "--padding-start", "0px", 3, "value"], ["mode", "md", "shape", "round", "expand", "block", "type", "submit", 1, "login-btn1", 2, "height", "45px", "margin", "7px"], ["type", "email", "formControlName", "email", "readonly", "", 1, "ourbus_inputText_disable", 3, "value"], ["type", "email", "formControlName", "email", 1, "ourbus_inputText", 3, "value"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value", "max"], [1, "ourbus_inputText", 3, "value"], ["required", "", "type", "text", "size", "10", "maxlength", "10", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "value", "Samarpit", "placeholder", "Mobile Number", 1, "otpNumber", 2, "border", "1px solid #bbbaba", "border-radius", "3px", "width", "86%", "margin", "5px", "height", "26px", "font-size", "10px", 3, "ngModelChange", "ngModel"], ["size", "4", 1, "dwn-txt", 2, "text-align", "left", 3, "click"], [1, "syamolitheme", 2, "box-shadow", "none"], ["slot", "start", 2, "position", "absolute", 3, "click"], ["defaultHref", "/tabs/more"], [1, "syamoli-title-center"], ["fullscreen", "true", "scroll-y", "true", 1, "syamolitheme"], [1, "scroll-container", 2, "margin", "0 auto", "font-family", "'Gilroy-Medium',sans-serif", "margin", "10px 16px"], [3, "ngSubmit", "formGroup"], ["type", "file", "id", "syamoliFileInput", "hidden", "", "accept", "image/*", 3, "change"], [1, "syamoli-profile-block", 2, "text-align", "center", "margin-top", "20px"], [1, "syamoli-avatar-wrapper", 2, "display", "flex", "justify-content", "center", 3, "click"], ["src", "./assets/icon/shyamoli-name.svg", "alt", "Add Photo", "class", "syamoli-avatar-placeholder", "style", "width:80px; height:80px; border-radius:50%; border:1px solid #ddd;", 4, "ngIf"], ["alt", "Profile Photo", "class", "syamoli-avatar", "style", "width:80px; height:80px; border-radius:50%;", 3, "src", 4, "ngIf"], ["class", "syamoli-add-photo-text", "style", "margin-top:6px; font-size:13px; color:#777;", 4, "ngIf"], [1, "syamoli-profile-name", 2, "display", "block", "font-weight", "600", "font-size", "16px", "margin-top", "6px", "color", "#222"], [1, "syamoli-profile-mobile", 2, "display", "block", "font-size", "14px", "color", "#666"], [2, "border", "none", "border-top", "1px solid #EAEAEA", "margin", "16px 0"], [1, "syamoli-section-title", 2, "font-weight", "600", "margin-bottom", "10px", "text-align", "left", "font-family", "'Gilroy-Bold','Gilroy-Medium',sans-serif", "letter-spacing", "0.5px"], [1, "syamoli-label", 2, "font-weight", "400", "margin-bottom", "4px", "display", "block", "text-align", "left", "font-family", "'Gilroy-Medium', sans-serif"], ["lines", "none", 1, "syamoli-input"], ["type", "text", "formControlName", "name", "autocomplete", "off"], [1, "syamoli-label", 2, "font-weight", "400", "margin-bottom", "4px", "display", "block", "text-align", "left"], ["lines", "none", "tappable", "", "id", "open-date-input-6", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/calendar-shyamoli.svg", 2, "margin-top", "2px", "margin-right", "8px"], ["type", "text", "formControlName", "dateofbirth", "autocomplete", "off"], ["size", "10", "maxlength", "10", "type", "tel", "formControlName", "phoneNumber", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", 3, "ionChange", "ngModelChange", "ngModel"], ["slot", "start", "src", "./assets/icon/emergency-shyamoli.svg", 2, "margin-top", "2px", "margin-right", "8px", 3, "click"], ["size", "10", "maxlength", "10", "type", "tel", "formControlName", "emergencyPhoneNumber", "oninput", "this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*?)\\..*/g, '$1');", "autocomplete", "off", 3, "ionChange"], ["type", "email", "formControlName", "email", "autocomplete", "off", "readonly", ""], [2, "margin-top", "14px"], [1, "syamoli-label", 2, "font-weight", "400", "display", "block", "text-align", "left", "margin-bottom", "6px", "font-family", "'Gilroy-Medium',sans-serif"], ["formControlName", "titlesex"], [2, "display", "flex", "flex-direction", "row", "gap", "24px"], [2, "display", "flex", "align-items", "center", "cursor", "pointer"], ["mode", "md", "value", "Mr", 2, "--color-checked", "#FF8C00", "margin-right", "6px"], [2, "font-family", "'Gilroy-Medium',sans-serif"], ["mode", "md", "value", "Ms", 2, "--color-checked", "#FF8C00", "margin-right", "6px"], [2, "font-weight", "600", "margin", "18px 0 2px", "text-align", "left", "font-family", "'Gilroy-Bold'"], [1, "syamoli-label", 2, "font-weight", "400", "margin-top", "6px", "margin-bottom", "4px", "display", "block", "text-align", "left", "font-family", "'Gilroy-Medium',sans-serif"], ["lines", "none", 1, "syamoli-input", 2, "width", "100%"], ["mode", "md", "formControlName", "country", "interface", "popover", 2, "flex", "1", "width", "100%", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["slot", "end", "src", "./assets/icon/dropdown1.svg", 3, "click"], ["mode", "md", "formControlName", "state", "interface", "popover", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["mode", "md", "formControlName", "city", "interface", "popover", 3, "ngModelChange", "ionChange", "ngModel", "interfaceOptions"], ["lines", "none", 1, "syamoli-input-address", 2, "--padding-start", "0px"], ["formControlName", "address", "autocomplete", "off", "placeholder", "Enter your address", 1, "syamoli-address-textarea", 2, "text-align", "left"], [2, "margin-top", "24px"], ["mode", "md", "expand", "block", 1, "syamoli-btn-primary", 3, "click"], ["src", "./assets/icon/shyamoli-name.svg", "alt", "Add Photo", 1, "syamoli-avatar-placeholder", 2, "width", "80px", "height", "80px", "border-radius", "50%", "border", "1px solid #ddd"], ["alt", "Profile Photo", 1, "syamoli-avatar", 2, "width", "80px", "height", "80px", "border-radius", "50%", 3, "src"], [1, "syamoli-add-photo-text", 2, "margin-top", "6px", "font-size", "13px", "color", "#777"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor) !important", 3, "ionChange", "value"]],
   template: function PersonalDetailPage_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtemplate"](0, PersonalDetailPage_ng_container_0_Template, 72, 35, "ng-container", 5)(1, PersonalDetailPage_ng_container_1_Template, 100, 29, "ng-container", 5)(2, PersonalDetailPage_ng_container_2_Template, 43, 21, "ng-container", 5)(3, PersonalDetailPage_ng_container_3_Template, 121, 28, "ng-container", 5)(4, PersonalDetailPage_ng_container_4_Template, 94, 20, "ng-container", 5);

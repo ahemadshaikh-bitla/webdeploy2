@@ -2876,7 +2876,13 @@ class MorePage {
     {
       this.authenticate.logout();
       this.isLogin = false;
-      this.navCtrl.navigateForward('tabs/home');
+      if (this.isIos) {
+        setTimeout(() => {
+          this.navCtrl.navigateForward('wait');
+        }, 100);
+      } else {
+        this.navCtrl.navigateForward('tabs/home');
+      }
       if (this.loginType == 'Forced Signup with OTP Login') {
         //  this.router.navigate(['forced-login-with-otp']);
         window.location.reload();

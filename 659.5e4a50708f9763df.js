@@ -5352,6 +5352,7 @@ class SeatLayoutPage {
             const validCosts = costs.filter(cost => cost.trim() !== '');
             const resultArray = [];
             validCosts.forEach(cost => resultArray.push(cost));
+            resultArray.sort((a, b) => a - b);
             this.costArray = resultArray;
           }
           this.serviceDetailsFull.all_fare_details = this.serviceDetailsFull.all_fare_details ? this.removeDuplicateFare(this.serviceDetailsFull.all_fare_details) : null;
@@ -13257,6 +13258,9 @@ class GridCoachUsingTableComponent {
     })();
   }
   gangwayremove(seat) {
+    //     if (seat?.number === 'EE_SLP') {
+    //   return true; // Always show emergency exit icons
+    // }
     if ((seat === null || seat === void 0 ? void 0 : seat.row_id) == null || (seat === null || seat === void 0 ? void 0 : seat.col_id) == null) {
       return false;
     }

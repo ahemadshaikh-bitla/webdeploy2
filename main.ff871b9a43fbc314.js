@@ -49460,6 +49460,9 @@ class AppComponent {
       _this3.setGloblaData();
       try {
         yield _this3.platform.ready();
+        if (_this3.appData.isWEBAPP) {
+          document.body.classList.add('webapp');
+        }
         if (_this3.platform.is('ios')) {
           yield _capacitor_status_bar__WEBPACK_IMPORTED_MODULE_2__.StatusBar.show();
           // await StatusBar.setStyle({ style: Style.Light });
@@ -69703,8 +69706,8 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "1.1.5"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    this.iosVersion = "3.8";
+    this.mobileWebVersion = "1.1.7"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.iosVersion = "3.9";
     this.androidVersion = "15.9";
     // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     // our bus
@@ -69712,7 +69715,7 @@ class AppData {
     // this.BASE_URL = "https://orbs-np.ticketsimply.co.in/";
     // this.BASE_URL = location.origin + '/';
     // this.BASE_URL = "https://orbs-np.ticketsimply.co.in/";
-    this.BASE_URL = "https://sppl.ticketsimply.com/";
+    //  this.BASE_URL = "https://sppl.ticketsimply.com/";
     // this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/";
     //cbus theme paybitla
     // this.BASE_URL = "https://kvt-qa2.ticketsimply.co.in/";
@@ -69721,7 +69724,7 @@ class AppData {
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
     //  this.BASE_URL = "https://rjto-qa1.ticketsimply.co.in/"
     // this.BASE_URL = "https://www.tsrtconline.site/";
-    // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
+    this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"; // seabird theme
     // this.BASE_URL = "https://lxmi-mob.ticketsimply.co.in/"; //network theme
@@ -117682,7 +117685,7 @@ class UtilProvider {
     if (theme && allowedThemes.includes(theme)) {
       return theme;
     }
-    return 'shyamolitheme';
+    return '';
   }
 }
 _UtilProvider = UtilProvider;
